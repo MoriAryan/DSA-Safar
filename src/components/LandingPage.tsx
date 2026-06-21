@@ -40,8 +40,8 @@ export function LandingPage() {
       {/* Nav */}
       <nav className="relative z-10 flex items-center justify-between px-6 py-6 max-w-7xl mx-auto">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center font-outfit font-bold italic text-xl shadow-lg shadow-red-600/20">
-            S
+          <div className="w-10 h-10 rounded-xl overflow-hidden border border-zinc-800 shadow-lg">
+            <img src="/logo.jpg" alt="DSA Safar" className="w-full h-full object-cover" />
           </div>
           <span className="font-outfit font-black text-2xl tracking-tight">DSA Safar</span>
         </div>
@@ -58,10 +58,6 @@ export function LandingPage() {
       {/* Hero */}
       <main className="relative z-10 max-w-7xl mx-auto px-6 pt-20 pb-32 flex flex-col lg:flex-row items-center gap-16">
         <div className="flex-1 text-center lg:text-left">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 text-sm font-semibold mb-8">
-            <Rocket size={16} /> 
-            <span>The Ultimate DSA Progression Tracker</span>
-          </div>
           <h1 className="text-5xl lg:text-7xl font-outfit font-black leading-tight mb-6 tracking-tight">
             Master Algorithms.<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-400">
@@ -73,11 +69,11 @@ export function LandingPage() {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-            <SignUpButton mode="modal">
+            <a href="/app">
               <Button size="lg" className="w-full sm:w-auto text-base font-semibold bg-red-600 hover:bg-red-700 text-white rounded-full px-8 py-6 h-auto flex items-center gap-2 group shadow-[0_0_40px_rgba(220,38,38,0.3)]">
-                Start Coding <ChevronRight className="group-hover:translate-x-1 transition-transform" />
+                Launch App <ChevronRight className="group-hover:translate-x-1 transition-transform" />
               </Button>
-            </SignUpButton>
+            </a>
           </div>
           
           <div className="mt-10 flex items-center justify-center lg:justify-start gap-8 text-sm font-medium text-zinc-500">
@@ -113,36 +109,6 @@ export function LandingPage() {
         </div>
       </main>
 
-      {/* Feature Grid */}
-      <section className="relative z-10 border-t border-zinc-800/50 bg-black/20 backdrop-blur-md">
-        <div className="max-w-7xl mx-auto px-6 py-24">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-8 rounded-3xl bg-zinc-900/50 border border-zinc-800 hover:border-red-500/30 transition-colors">
-              <div className="w-12 h-12 rounded-xl bg-red-500/10 flex items-center justify-center mb-6">
-                <BrainCircuit className="text-red-500" size={24} />
-              </div>
-              <h3 className="text-xl font-bold font-outfit mb-3">Spaced Repetition</h3>
-              <p className="text-zinc-400 leading-relaxed">Our Focus Mode algorithm guarantees you never forget a solution. Overdue questions are prioritized automatically.</p>
-            </div>
-            
-            <div className="p-8 rounded-3xl bg-zinc-900/50 border border-zinc-800 hover:border-red-500/30 transition-colors">
-              <div className="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center mb-6">
-                <Terminal className="text-orange-500" size={24} />
-              </div>
-              <h3 className="text-xl font-bold font-outfit mb-3">Nerd Aesthetics</h3>
-              <p className="text-zinc-400 leading-relaxed">Built for engineers, by engineers. A blazing fast, keyboard-friendly UI with dark mode as a first-class citizen.</p>
-            </div>
-            
-            <div className="p-8 rounded-3xl bg-zinc-900/50 border border-zinc-800 hover:border-red-500/30 transition-colors">
-              <div className="w-12 h-12 rounded-xl bg-green-500/10 flex items-center justify-center mb-6">
-                <Code2 className="text-green-500" size={24} />
-              </div>
-              <h3 className="text-xl font-bold font-outfit mb-3">Deep Analytics</h3>
-              <p className="text-zinc-400 leading-relaxed">Track your goal streaks, active days, and retention profile in a beautifully crafted Bento-Box dashboard.</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="relative z-10 border-t border-zinc-800/50 py-12 text-center">

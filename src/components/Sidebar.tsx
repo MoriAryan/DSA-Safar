@@ -34,10 +34,10 @@ export default function Sidebar() {
         <div className={`flex items-center w-full ${isCollapsed ? 'flex-col gap-4' : 'gap-3'}`}>
           <button 
             onClick={() => setIsCollapsed(!isCollapsed)}
-            className="w-10 h-10 rounded-xl bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center font-outfit font-bold italic text-xl shadow-lg shadow-red-600/20 shrink-0 hover:scale-105 transition-transform"
+            className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0 hover:scale-105 transition-transform overflow-hidden bg-black border border-zinc-800"
             title="Toggle Sidebar"
           >
-            S
+            <img src="/logo.jpg" alt="DSA Safar Logo" className="w-full h-full object-cover" />
           </button>
           {!isCollapsed && (
             <div className="flex-1 overflow-hidden">
@@ -57,7 +57,7 @@ export default function Sidebar() {
       </div>
 
       <nav className="flex-1 px-3 space-y-2 overflow-y-auto mt-6 font-outfit">
-        <NavItem href="/" icon={<FileText size={20} />} label="DSA Safar" isCollapsed={isCollapsed} />
+        <NavItem href="/app" icon={<FileText size={20} />} label="DSA Safar" isCollapsed={isCollapsed} />
         <NavItem href="/sprint" icon={<Flame size={20} />} label="2 Day Sprint" isCollapsed={isCollapsed} />
         <NavItem href="/analytics" icon={<Activity size={20} />} label="Analytics" isCollapsed={isCollapsed} />
         <NavItem href="/revisions" icon={<Code size={20} />} label="Revisions" isCollapsed={isCollapsed} />

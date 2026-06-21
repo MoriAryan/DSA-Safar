@@ -9,7 +9,14 @@ export function SyncEngine() {
   const hasHydrated = useRef(false);
 
   useEffect(() => {
-    if (isLoaded && isSignedIn && user && !hasHydrated.current) {
+    if (!isLoaded) return;
+    
+    // Always mark active today on load, regardless of auth
+    if (!hasHydrated.current) {
+      useProgressStore.getState().markActiveToday();
+    }
+
+    if (isSignedIn && user && !hasHydrated.current) {
       // Fetch initial data from MongoDB on login
       fetch('/api/progress')
         .then(res => {
@@ -33,9 +40,10 @@ export function SyncEngine() {
         .catch(err => console.error("Failed to fetch progress from DB:", err))
         .finally(() => {
           hasHydrated.current = true;
-          // After loading from DB, mark today as an active day
-          useProgressStore.getState().markActiveToday();
         });
+    } else if (!isSignedIn && !hasHydrated.current) {
+      // If not signed in, just mark as hydrated so we don't keep running this
+      hasHydrated.current = true;
     }
   }, [isLoaded, isSignedIn, user]);
 
