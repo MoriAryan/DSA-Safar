@@ -22,6 +22,7 @@ export function SyncEngine() {
               bookmarkedProblems: { ...state.bookmarkedProblems, ...data.bookmarkedProblems },
               notes: { ...state.notes, ...data.notes },
               dailySolves: { ...state.dailySolves, ...data.dailySolves },
+              activeDays: { ...state.activeDays, ...data.activeDays },
               stats: { ...state.stats, ...data.stats },
             }));
           }
@@ -29,6 +30,8 @@ export function SyncEngine() {
         .catch(err => console.error("Failed to fetch progress from DB:", err))
         .finally(() => {
           hasHydrated.current = true;
+          // After loading from DB, mark today as an active day
+          useProgressStore.getState().markActiveToday();
         });
     }
   }, [isLoaded, isSignedIn, user]);
@@ -48,6 +51,7 @@ export function SyncEngine() {
             bookmarkedProblems: state.bookmarkedProblems,
             notes: state.notes,
             dailySolves: state.dailySolves,
+            activeDays: state.activeDays,
             stats: state.stats
           }),
         }).catch(err => console.error("Failed to sync progress:", err));

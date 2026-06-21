@@ -70,10 +70,6 @@ export default function Sidebar() {
           <Code size={20} />
           <span>Interview Mode</span>
         </Link>
-        <Link href="/restart" className="flex items-center gap-3 px-3 py-3 text-zinc-400 hover:text-white rounded-lg transition-colors">
-          <List size={20} />
-          <span>Quick Restart</span>
-        </Link>
         <Link href="/notes" className="flex items-center gap-3 px-3 py-3 text-zinc-400 hover:text-white rounded-lg transition-colors">
           <FileText size={20} />
           <span>Saved Notes</span>

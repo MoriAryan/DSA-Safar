@@ -25,6 +25,7 @@ interface ProgressState {
   notes: Record<string, string>;
   stats: UserStats;
   dailySolves: Record<string, number>;
+  activeDays: Record<string, boolean>; // New: track any visit
   showReward: boolean;
   
   // Actions
@@ -35,6 +36,7 @@ interface ProgressState {
   updateStats: (updates: Partial<UserStats>) => void;
   setShowReward: (val: boolean) => void;
   resetTodayProgress: () => void;
+  markActiveToday: () => void;
   
   // Getters
   getNote: (id: string) => string;
@@ -43,6 +45,7 @@ interface ProgressState {
   isBookmarked: (id: string) => boolean;
   getProgress: (problemIds: string[]) => { completed: number; total: number; percentage: number };
   getStreak: () => number;
+  getActiveStreak: () => number;
 }
 
 const getNextRevisionDate = (confidence: Confidence, revisionCount: number, currentDate: number): number | null => {
@@ -72,6 +75,7 @@ export const useProgressStore = create<ProgressState>()(
       bookmarkedProblems: {},
       notes: {},
       dailySolves: {},
+      activeDays: {},
       showReward: false,
       stats: {
         dailyTarget: 3,
@@ -180,6 +184,12 @@ export const useProgressStore = create<ProgressState>()(
         notes: { ...state.notes, [id]: note }
       })),
 
+      markActiveToday: () => set((state) => {
+        const today = getLocalDateString();
+        if (state.activeDays[today]) return state;
+        return { activeDays: { ...state.activeDays, [today]: true } };
+      }),
+
       updateStats: (updates) => set((state) => ({
         stats: { ...state.stats, ...updates }
       })),
@@ -246,6 +256,35 @@ export const useProgressStore = create<ProgressState>()(
 
         // Add today if target met
         if ((dailySolves[dateStr] || 0) >= dailyTarget) {
+          streak++;
+        }
+
+        return streak;
+      },
+
+      getActiveStreak: () => {
+        const { activeDays } = get();
+        
+        let streak = 0;
+        const today = new Date();
+        const dateStr = getLocalDateString(today);
+        
+        // Start from yesterday
+        let currentDay = new Date();
+        currentDay.setDate(today.getDate() - 1);
+
+        while (true) {
+          const dStr = getLocalDateString(currentDay);
+          if (activeDays[dStr]) {
+            streak++;
+            currentDay.setDate(currentDay.getDate() - 1);
+          } else {
+            break;
+          }
+        }
+
+        // Add today if active
+        if (activeDays[dateStr]) {
           streak++;
         }
 

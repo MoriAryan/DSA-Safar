@@ -6,6 +6,7 @@ export interface IUserProgress extends Document {
   bookmarkedProblems: Record<string, boolean>;
   notes: Record<string, string>;
   dailySolves: Record<string, number>;
+  activeDays: Record<string, boolean>;
   stats: {
     dailyTarget: number;
     longestStreak: number;
@@ -19,6 +20,7 @@ const UserProgressSchema: Schema = new Schema({
   bookmarkedProblems: { type: Map, of: Boolean, default: {} },
   notes: { type: Map, of: String, default: {} },
   dailySolves: { type: Map, of: Number, default: {} },
+  activeDays: { type: Map, of: Boolean, default: {} },
   stats: {
     dailyTarget: { type: Number, default: 3 },
     longestStreak: { type: Number, default: 0 },

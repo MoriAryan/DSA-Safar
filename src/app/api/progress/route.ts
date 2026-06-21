@@ -32,7 +32,7 @@ export async function POST(req: Request) {
     }
 
     const body = await req.json();
-    const { completedProblems, bookmarkedProblems, notes, dailySolves, stats } = body;
+    const { completedProblems, bookmarkedProblems, notes, dailySolves, activeDays, stats } = body;
 
     await connectToDatabase();
 
@@ -43,6 +43,7 @@ export async function POST(req: Request) {
         bookmarkedProblems,
         notes,
         dailySolves,
+        activeDays,
         stats
       },
       { new: true, upsert: true }
