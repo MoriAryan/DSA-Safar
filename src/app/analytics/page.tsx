@@ -7,7 +7,7 @@ import { Flame, Target, TrendingUp, AlertTriangle } from "lucide-react";
 
 export default function AnalyticsPage() {
   const [mounted, setMounted] = React.useState(false);
-  const { stats, completedProblems } = useProgressStore();
+  const { stats, completedProblems, getStreak } = useProgressStore();
 
   React.useEffect(() => {
     setMounted(true);
@@ -82,7 +82,7 @@ export default function AnalyticsPage() {
           </div>
           <div>
             <p className="text-sm text-zinc-500 font-medium">Current Streak</p>
-            <p className="text-2xl font-bold font-outfit">{stats.currentStreak} Days</p>
+            <p className="text-2xl font-bold font-outfit">{getStreak()} Days</p>
           </div>
         </div>
         <div className="bg-white dark:bg-[#1a1b1e] p-6 rounded-xl border border-zinc-200 dark:border-zinc-800 shadow-sm flex items-center gap-4">

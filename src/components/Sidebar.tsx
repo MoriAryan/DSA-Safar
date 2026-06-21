@@ -98,7 +98,7 @@ export default function Sidebar() {
         </Button>
         {isSignedIn ? (
           <div className="flex items-center gap-3 w-full justify-end">
-            <UserButton afterSignOutUrl="/" appearance={{ elements: { userButtonAvatarBox: "w-8 h-8" } }} />
+            <UserButton appearance={{ elements: { userButtonAvatarBox: "w-8 h-8" } }} />
           </div>
         ) : (
           <SignInButton mode="modal">
