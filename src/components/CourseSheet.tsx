@@ -9,6 +9,7 @@ import { useProgressStore } from "@/store/useProgressStore";
 import { ImportExport } from "./ImportExport";
 import { useEffect } from "react";
 import { getLocalDateString } from "@/lib/dateUtils";
+import Loading from "@/app/loading";
 
 export default function CourseSheet() {
   const [mounted, setMounted] = useState(false);
@@ -61,15 +62,15 @@ export default function CourseSheet() {
   }, [searchQuery, showBookmarks, isBookmarked]);
 
   if (!mounted) {
-    return <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter animate-pulse min-h-screen"></div>;
+    return <Loading />;
   }
 
   return (
     <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter">
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
         <div>
-          <h1 className="text-3xl font-outfit font-bold mb-2">Strivers A2Z DSA Course/Sheet</h1>
-          <p className="text-zinc-500 dark:text-zinc-400">The ONE STOP POINT to learn DSA from A to Z.</p>
+          <h1 className="text-3xl font-outfit font-black mb-2 tracking-tight text-zinc-900 dark:text-white">DSA Safar</h1>
+          <p className="text-zinc-500 dark:text-zinc-400">The ultimate progression tracker to conquer DSA.</p>
         </div>
         <div className="flex items-center gap-4">
           <ImportExport />

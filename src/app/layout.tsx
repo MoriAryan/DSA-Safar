@@ -19,8 +19,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Striver's A2Z DSA Course/Sheet",
-  description: "Offline tracker for Striver's A2Z DSA Sheet",
+  title: "DSA Safar",
+  description: "Advanced progression tracker for DSA Safar",
 };
 
 export default function RootLayout({

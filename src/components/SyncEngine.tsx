@@ -12,7 +12,10 @@ export function SyncEngine() {
     if (isLoaded && isSignedIn && user && !hasHydrated.current) {
       // Fetch initial data from MongoDB on login
       fetch('/api/progress')
-        .then(res => res.json())
+        .then(res => {
+          if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+          return res.json();
+        })
         .then(data => {
           if (data && data.completedProblems) {
             useProgressStore.setState((state) => ({
@@ -52,10 +55,12 @@ export function SyncEngine() {
             notes: state.notes,
             dailySolves: state.dailySolves,
             activeDays: state.activeDays,
-            stats: state.stats
-          }),
-        }).catch(err => console.error("Failed to sync progress:", err));
-      }, 1000); // 1 second debounce
+          stats: state.stats
+        })
+      }).then(res => {
+        if (!res.ok) throw new Error(`Sync failed with status: ${res.status}`);
+      }).catch(err => console.error("Failed to sync progress:", err));
+    }, 1000); // 1 second debounce
 
       return () => clearTimeout(handler);
     });

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { User, FileText, Bookmark, Code, List, Settings, Search, Sun, Moon, Flame } from "lucide-react";
+import { User, FileText, Bookmark, Code, Settings, Search, Sun, Moon, Flame, ChevronLeft, ChevronRight, Activity } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useProgressStore } from "@/store/useProgressStore";
 import { getLocalDateString } from "@/lib/dateUtils";
@@ -11,6 +11,7 @@ import { useState, useEffect } from "react";
 
 export default function Sidebar() {
   const [mounted, setMounted] = useState(false);
+  const [isCollapsed, setIsCollapsed] = useState(false);
   const { isSignedIn } = useUser();
   const { theme, setTheme } = useTheme();
   const dailySolves = useProgressStore(state => state.dailySolves);
@@ -24,86 +25,82 @@ export default function Sidebar() {
   }, []);
 
   if (!mounted) {
-    return <aside className="w-[280px] bg-[#1a1b1e] text-white flex flex-col hidden md:flex shrink-0 border-r border-zinc-800" />;
+    return <aside className={`bg-[#1a1b1e] text-white flex flex-col hidden md:flex shrink-0 border-r border-zinc-800 transition-all duration-300 ${isCollapsed ? 'w-[80px]' : 'w-[280px]'}`} />;
   }
 
   return (
-    <aside className="w-[280px] bg-[#1a1b1e] text-white flex flex-col hidden md:flex shrink-0 border-r border-zinc-800">
-      <div className="p-6 pb-2 flex items-center justify-between">
-        <div className="flex items-center gap-3 w-full">
-          <div className="w-10 h-10 rounded-full bg-red-600 flex items-center justify-center font-outfit font-bold italic text-xl shadow-lg shrink-0">
-            TUF
-          </div>
-          <div className="flex-1">
-            <div className="flex justify-between items-center mb-1">
-              <span className="text-xs font-medium text-zinc-400 uppercase tracking-wider">Daily Goal</span>
-              <span className="text-xs font-bold text-orange-500">{solvesToday}/{stats.dailyTarget}</span>
+    <aside className={`bg-[#1a1b1e] text-white flex flex-col hidden md:flex shrink-0 border-r border-zinc-800 transition-all duration-300 relative ${isCollapsed ? 'w-[80px]' : 'w-[280px]'}`}>
+      <div className={`p-6 pb-2 flex items-center justify-between ${isCollapsed ? 'flex-col gap-4' : ''}`}>
+        <div className={`flex items-center w-full ${isCollapsed ? 'flex-col gap-4' : 'gap-3'}`}>
+          <button 
+            onClick={() => setIsCollapsed(!isCollapsed)}
+            className="w-10 h-10 rounded-xl bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center font-outfit font-bold italic text-xl shadow-lg shadow-red-600/20 shrink-0 hover:scale-105 transition-transform"
+            title="Toggle Sidebar"
+          >
+            S
+          </button>
+          {!isCollapsed && (
+            <div className="flex-1 overflow-hidden">
+              <div className="flex justify-between items-center mb-1">
+                <span className="text-xs font-medium text-zinc-400 uppercase tracking-wider">Daily Goal</span>
+                <span className="text-xs font-bold text-red-500">{solvesToday}/{stats.dailyTarget}</span>
+              </div>
+              <div className="w-full h-1.5 bg-zinc-800 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-gradient-to-r from-orange-500 to-red-500 transition-all duration-500"
+                  style={{ width: `${progressPercent}%` }}
+                />
+              </div>
             </div>
-            <div className="w-full h-1.5 bg-zinc-800 rounded-full overflow-hidden">
-              <div
-                className="h-full bg-gradient-to-r from-orange-500 to-red-500 transition-all duration-500"
-                style={{ width: `${progressPercent}%` }}
-              />
-            </div>
-          </div>
+          )}
         </div>
       </div>
 
-      <nav className="flex-1 px-4 space-y-2 overflow-y-auto mt-4 font-outfit">
-        <Link href="/" className="flex items-center gap-3 px-3 py-3 text-zinc-400 hover:text-white rounded-lg transition-colors">
-          <FileText size={20} />
-          <span>Home</span>
-        </Link>
-        <Link href="/sprint" className="flex items-center gap-3 px-3 py-3 text-zinc-400 hover:text-white rounded-lg transition-colors">
-          <Flame size={20} />
-          <span>2 Day Sprint</span>
-        </Link>
-        <Link href="/analytics" className="flex items-center gap-3 px-3 py-3 text-zinc-400 hover:text-white rounded-lg transition-colors">
-          <User size={20} />
-          <span>Analytics</span>
-        </Link>
-        <Link href="/revisions" className="flex items-center gap-3 px-3 py-3 text-zinc-400 hover:text-white rounded-lg transition-colors">
-          <Bookmark size={20} />
-          <span>Revisions</span>
-        </Link>
-        <Link href="/interview" className="flex items-center gap-3 px-3 py-3 text-zinc-400 hover:text-white rounded-lg transition-colors">
-          <Code size={20} />
-          <span>Interview Mode</span>
-        </Link>
-        <Link href="/notes" className="flex items-center gap-3 px-3 py-3 text-zinc-400 hover:text-white rounded-lg transition-colors">
-          <FileText size={20} />
-          <span>Saved Notes</span>
-        </Link>
-
-        <div className="pt-4 mt-4 border-t border-zinc-800 space-y-1">
-          <Link href="/settings" className="flex items-center gap-3 px-3 py-3 text-zinc-400 hover:text-white rounded-lg transition-colors">
-            <Settings size={20} />
-            <span>Settings</span>
-          </Link>
-        </div>
+      <nav className="flex-1 px-3 space-y-2 overflow-y-auto mt-6 font-outfit">
+        <NavItem href="/" icon={<FileText size={20} />} label="DSA Safar" isCollapsed={isCollapsed} />
+        <NavItem href="/sprint" icon={<Flame size={20} />} label="2 Day Sprint" isCollapsed={isCollapsed} />
+        <NavItem href="/analytics" icon={<Activity size={20} />} label="Analytics" isCollapsed={isCollapsed} />
+        <NavItem href="/revisions" icon={<Code size={20} />} label="Revisions" isCollapsed={isCollapsed} />
+        <NavItem href="/notes" icon={<Bookmark size={20} />} label="Saved Notes" isCollapsed={isCollapsed} />
+        <NavItem href="/settings" icon={<Settings size={20} />} label="Settings" isCollapsed={isCollapsed} />
       </nav>
 
-      <div className="p-4 border-t border-zinc-800 flex items-center justify-between">
+      <div className={`p-4 border-t border-zinc-800 flex items-center ${isCollapsed ? 'flex-col justify-center gap-4' : 'justify-between'}`}>
         <Button
           variant="ghost"
           size="icon"
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
           className="text-zinc-400 hover:text-white rounded-full hover:bg-zinc-800"
+          title="Toggle Theme"
         >
           {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
         </Button>
         {isSignedIn ? (
-          <div className="flex items-center gap-3 w-full justify-end">
+          <div className={`flex items-center gap-3 ${isCollapsed ? 'justify-center' : 'justify-end w-full'}`}>
             <UserButton appearance={{ elements: { userButtonAvatarBox: "w-8 h-8" } }} />
           </div>
         ) : (
           <SignInButton mode="modal">
-            <Button variant="destructive" className="bg-red-600 hover:bg-red-700 rounded-md font-outfit w-full">
-              Login
+            <Button variant="destructive" className={`${isCollapsed ? 'w-10 h-10 p-0 rounded-full flex items-center justify-center' : 'w-full'} bg-red-600 hover:bg-red-700 font-outfit`}>
+              {isCollapsed ? <User size={16} /> : 'Login'}
             </Button>
           </SignInButton>
         )}
       </div>
     </aside>
+  );
+}
+
+function NavItem({ href, icon, label, isCollapsed }: { href: string, icon: React.ReactNode, label: string, isCollapsed: boolean }) {
+  return (
+    <Link href={href} className="flex items-center gap-3 px-3 py-3 text-zinc-400 hover:text-white hover:bg-zinc-800/50 rounded-lg transition-colors group" title={label}>
+      <span className="shrink-0">{icon}</span>
+      {!isCollapsed && <span className="truncate">{label}</span>}
+      {isCollapsed && (
+        <div className="absolute left-16 bg-zinc-800 text-white px-3 py-1.5 rounded-md text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity z-50 shadow-xl border border-zinc-700">
+          {label}
+        </div>
+      )}
+    </Link>
   );
 }
