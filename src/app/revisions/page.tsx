@@ -7,7 +7,12 @@ import { ProblemTable } from "@/components/ProblemTable";
 import { Clock, Calendar, AlertCircle } from "lucide-react";
 
 export default function RevisionsPage() {
+  const [mounted, setMounted] = React.useState(false);
   const { completedProblems } = useProgressStore();
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const { overdue, today, thisWeek } = useMemo(() => {
     const now = Date.now();
@@ -46,6 +51,10 @@ export default function RevisionsPage() {
 
     return { overdue: overdueList, today: todayList, thisWeek: thisWeekList };
   }, [completedProblems]);
+
+  if (!mounted) {
+    return <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter animate-pulse min-h-screen"></div>;
+  }
 
   return (
     <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter">

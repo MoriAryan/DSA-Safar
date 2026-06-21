@@ -7,7 +7,12 @@ import { FileText, AlignLeft } from "lucide-react";
 import Link from "next/link";
 
 export default function NotesPage() {
+  const [mounted, setMounted] = React.useState(false);
   const notes = useProgressStore(state => state.notes);
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
   
   const savedNotes = useMemo(() => {
     // Flatten dataset to dictionary for easy lookup
@@ -32,6 +37,10 @@ export default function NotesPage() {
         };
       });
   }, [notes]);
+
+  if (!mounted) {
+    return <div className="max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter animate-pulse min-h-screen"></div>;
+  }
 
   return (
     <div className="max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter">

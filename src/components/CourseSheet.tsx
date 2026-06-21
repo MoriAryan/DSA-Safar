@@ -11,6 +11,7 @@ import { useEffect } from "react";
 import { getLocalDateString } from "@/lib/dateUtils";
 
 export default function CourseSheet() {
+  const [mounted, setMounted] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [showBookmarks, setShowBookmarks] = useState(false);
   const isBookmarked = useProgressStore(state => state.isBookmarked);
@@ -28,7 +29,9 @@ export default function CourseSheet() {
         localStorage.setItem("tuf-last-backup-date", today);
       }
     }
+    setMounted(true);
   }, []);
+
   
   const allProblemIds = useMemo(() => {
     return dataset.flatMap(s => s.lectures.flatMap(l => l.problems.map(p => p.id)));
@@ -49,9 +52,17 @@ export default function CourseSheet() {
         return { ...lec, problems: filteredProblems };
       }).filter(lec => lec.problems.length > 0 || (lec.title.toLowerCase().includes(query) && !showBookmarks));
       
-      return { ...step, lectures: filteredLectures };
-    }).filter(step => step.lectures.length > 0 || (step.title.toLowerCase().includes(query) && !showBookmarks));
+      const filteredStep = (filteredLectures.length > 0 || (step.title.toLowerCase().includes(query) && !showBookmarks)) 
+        ? { ...step, lectures: filteredLectures } 
+        : null;
+      
+      return filteredStep;
+    }).filter(step => step !== null);
   }, [searchQuery, showBookmarks, isBookmarked]);
+
+  if (!mounted) {
+    return <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter animate-pulse min-h-screen"></div>;
+  }
 
   return (
     <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter">

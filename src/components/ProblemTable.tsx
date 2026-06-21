@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Check, FileText, Play, Code2, Edit3, Star, Circle } from "lucide-react";
 import { useProgressStore, Confidence } from "@/store/useProgressStore";
+import { useUser, useClerk } from "@clerk/nextjs";
 import { Tooltip, TooltipContent, TooltipTrigger, TooltipProvider } from "./ui/tooltip";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
 import { Button } from "./ui/button";
@@ -72,6 +73,9 @@ const ResourceLink = ({ url, type }: { url: string | "MISSING", type: "article" 
 
 const StatusCell = ({ id }: { id: string }) => {
   const { toggleProblem, updateConfidence, getProblemData } = useProgressStore();
+  const { isSignedIn } = useUser();
+  const clerk = useClerk();
+  
   const data = getProblemData(id);
   const isCompleted = !!data && data.status === 'solved';
   const confidence = data ? data.confidence : 'unsolved';
@@ -83,10 +87,15 @@ const StatusCell = ({ id }: { id: string }) => {
     unsolved: "bg-zinc-300 dark:bg-zinc-700"
   };
 
+  const handleToggle = () => {
+    if (!isSignedIn) return clerk.openSignIn();
+    toggleProblem(id);
+  };
+
   return (
     <div className="flex items-center justify-center gap-2">
       <button 
-        onClick={() => toggleProblem(id)}
+        onClick={handleToggle}
         className={`w-6 h-6 rounded flex shrink-0 items-center justify-center border transition-all ${
           isCompleted 
             ? 'bg-red-500 border-red-500 text-white' 
@@ -123,14 +132,23 @@ const StatusCell = ({ id }: { id: string }) => {
 
 export function ProblemTable({ problems }: { problems: any[] }) {
   const { toggleBookmark, isBookmarked, saveNote, getNote } = useProgressStore();
+  const { isSignedIn } = useUser();
+  const clerk = useClerk();
+  
   const [noteDialogOpen, setNoteDialogOpen] = useState(false);
   const [activeNoteId, setActiveNoteId] = useState<string | null>(null);
   const [noteText, setNoteText] = useState("");
 
   const openNoteDialog = (id: string) => {
+    if (!isSignedIn) return clerk.openSignIn();
     setActiveNoteId(id);
     setNoteText(getNote(id));
     setNoteDialogOpen(true);
+  };
+
+  const handleToggleBookmark = (id: string) => {
+    if (!isSignedIn) return clerk.openSignIn();
+    toggleBookmark(id);
   };
 
   const handleSaveNote = () => {
@@ -194,7 +212,7 @@ export function ProblemTable({ problems }: { problems: any[] }) {
                 </td>
                 <td className="px-6 py-4 text-center">
                   <button 
-                    onClick={() => toggleBookmark(prob.id)}
+                    onClick={() => handleToggleBookmark(prob.id)}
                     className={`p-2 transition-colors ${
                       bookmarked 
                         ? 'text-yellow-400' 

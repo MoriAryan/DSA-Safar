@@ -3,17 +3,29 @@
 import Link from "next/link";
 import { User, FileText, Bookmark, Code, List, Settings, Search, Sun, Moon, Flame } from "lucide-react";
 import { useTheme } from "next-themes";
-import { Button } from "./ui/button";
 import { useProgressStore } from "@/store/useProgressStore";
 import { getLocalDateString } from "@/lib/dateUtils";
+import { SignInButton, UserButton, useUser } from "@clerk/nextjs";
+import { Button } from "./ui/button";
+import { useState, useEffect } from "react";
 
 export default function Sidebar() {
+  const [mounted, setMounted] = useState(false);
+  const { isSignedIn } = useUser();
   const { theme, setTheme } = useTheme();
   const dailySolves = useProgressStore(state => state.dailySolves);
   const stats = useProgressStore(state => state.stats);
   const today = getLocalDateString();
   const solvesToday = dailySolves[today] || 0;
   const progressPercent = Math.min((solvesToday / stats.dailyTarget) * 100, 100);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return <aside className="w-[280px] bg-[#1a1b1e] text-white flex flex-col hidden md:flex shrink-0 border-r border-zinc-800" />;
+  }
 
   return (
     <aside className="w-[280px] bg-[#1a1b1e] text-white flex flex-col hidden md:flex shrink-0 border-r border-zinc-800">
@@ -28,15 +40,15 @@ export default function Sidebar() {
               <span className="text-xs font-bold text-orange-500">{solvesToday}/{stats.dailyTarget}</span>
             </div>
             <div className="w-full h-1.5 bg-zinc-800 rounded-full overflow-hidden">
-              <div 
-                className="h-full bg-gradient-to-r from-orange-500 to-red-500 transition-all duration-500" 
+              <div
+                className="h-full bg-gradient-to-r from-orange-500 to-red-500 transition-all duration-500"
                 style={{ width: `${progressPercent}%` }}
               />
             </div>
           </div>
         </div>
       </div>
-      
+
       <nav className="flex-1 px-4 space-y-2 overflow-y-auto mt-4 font-outfit">
         <Link href="/" className="flex items-center gap-3 px-3 py-3 text-zinc-400 hover:text-white rounded-lg transition-colors">
           <FileText size={20} />
@@ -72,21 +84,29 @@ export default function Sidebar() {
             <Settings size={20} />
             <span>Settings</span>
           </Link>
-        </div>  
+        </div>
       </nav>
-      
+
       <div className="p-4 border-t border-zinc-800 flex items-center justify-between">
-        <Button 
-          variant="ghost" 
-          size="icon" 
+        <Button
+          variant="ghost"
+          size="icon"
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
           className="text-zinc-400 hover:text-white rounded-full hover:bg-zinc-800"
         >
           {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
         </Button>
-        <Button variant="destructive" className="bg-red-600 hover:bg-red-700 rounded-md font-outfit">
-          Login
-        </Button>
+        {isSignedIn ? (
+          <div className="flex items-center gap-3 w-full justify-end">
+            <UserButton afterSignOutUrl="/" appearance={{ elements: { userButtonAvatarBox: "w-8 h-8" } }} />
+          </div>
+        ) : (
+          <SignInButton mode="modal">
+            <Button variant="destructive" className="bg-red-600 hover:bg-red-700 rounded-md font-outfit w-full">
+              Login
+            </Button>
+          </SignInButton>
+        )}
       </div>
     </aside>
   );

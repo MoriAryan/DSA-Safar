@@ -14,6 +14,11 @@ export default function SettingsPage() {
   const [dailyTarget, setDailyTarget] = useState(stats.dailyTarget.toString());
   const [saved, setSaved] = useState(false);
   const [resetting, setResetting] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const today = getLocalDateString();
   const solvesToday = dailySolves[today] || 0;
@@ -26,6 +31,10 @@ export default function SettingsPage() {
       setTimeout(() => setSaved(false), 2000);
     }
   };
+
+  if (!mounted) {
+    return <div className="max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter animate-pulse min-h-screen"></div>;
+  }
 
   return (
     <div className="max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter">

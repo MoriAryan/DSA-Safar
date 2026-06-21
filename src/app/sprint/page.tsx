@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useState, useEffect } from "react";
 import dataset from "@/data/data.json";
 import sprintData from "@/data/sprint.json";
 import { useProgressStore } from "@/store/useProgressStore";
@@ -8,6 +8,12 @@ import { ProblemTable } from "@/components/ProblemTable";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
 export default function SprintPage() {
+  const [mounted, setMounted] = useState(false);
+  
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   const getProgress = useProgressStore(state => state.getProgress);
   const completedProblems = useProgressStore(state => state.completedProblems); // for reactivity
 
@@ -41,6 +47,10 @@ export default function SprintPage() {
   const toggleTopic = (title: string) => {
     setOpenTopics(prev => ({ ...prev, [title]: !prev[title] }));
   };
+
+  if (!mounted) {
+    return <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter animate-pulse min-h-screen"></div>;
+  }
 
   return (
     <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter">

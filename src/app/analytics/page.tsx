@@ -6,7 +6,12 @@ import { useProgressStore, ProblemProgress } from "@/store/useProgressStore";
 import { Flame, Target, TrendingUp, AlertTriangle } from "lucide-react";
 
 export default function AnalyticsPage() {
+  const [mounted, setMounted] = React.useState(false);
   const { stats, completedProblems } = useProgressStore();
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const {
     topicStats,
@@ -58,6 +63,10 @@ export default function AnalyticsPage() {
 
     return { topicStats: tStats, weakTopics: wTopics, totalSolved: tSolved, easyCount: easy, partialCount: partial, forgotCount: forgot };
   }, [completedProblems]);
+
+  if (!mounted) {
+    return <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter animate-pulse min-h-screen"></div>;
+  }
 
   return (
     <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8 font-inter">
