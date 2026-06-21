@@ -1,0 +1,165 @@
+[
+  {
+    "title": "ARRAYS",
+    "problems": [
+      "longest-subarray-with-given-sum-k-positives",
+      "longest-subarray-with-sum-k-positives-negatives",
+      "2sum-problem",
+      "sort-an-array-of-0-s-1-s-and-2-s",
+      "majority-element-n-2-times",
+      "kadane-s-algorithm-maximum-subarray-sum",
+      "stock-buy-and-sell",
+      "next-permutation",
+      "longest-consecutive-sequence-in-an-array",
+      "set-matrix-zeros",
+      "rotate-matrix-by-90-degrees",
+      "3-sum-problem",
+      "merge-overlapping-subintervals",
+      "maximum-product-subarray"
+    ]
+  },
+  {
+    "title": "BINARY SEARCH",
+    "problems": [
+      "search-in-rotated-sorted-array-i",
+      "find-minimum-in-rotated-sorted-array",
+      "find-peak-element",
+      "koko-eating-bananas",
+      "aggressive-cows",
+      "book-allocation-problem",
+      "median-of-2-sorted-arrays",
+      "search-in-a-2-d-matrix"
+    ]
+  },
+  {
+    "title": "STRINGS",
+    "problems": [
+      "longest-common-prefix",
+      "isomorphic-string",
+      "check-if-two-strings-are-anagram-of-each-other",
+      "implement-atoi",
+      "longest-palindromic-substring-do-it-without-dp"
+    ]
+  },
+  {
+    "title": "LINKED LIST",
+    "problems": [
+      "reverse-a-linkedlist-iterative",
+      "middle-of-a-linkedlist-tortoisehare-method",
+      "detect-a-loop-in-ll",
+      "check-if-ll-is-palindrome-or-not",
+      "remove-nth-node-from-the-back-of-the-ll",
+      "find-the-intersection-point-of-y-ll",
+      "add-2-numbers-in-ll",
+      "clone-a-linked-list-with-random-and-next-pointer"
+    ]
+  },
+  {
+    "title": "RECURSION / BACKTRACKING",
+    "problems": [
+      "generate-paranthesis",
+      "combination-sum",
+      "subset-sum-ii",
+      "n-queen",
+      "word-search"
+    ]
+  },
+  {
+    "title": "BIT MANIPULATION",
+    "problems": [
+      "check-if-a-number-is-power-of-2-or-not",
+      "count-the-number-of-set-bits",
+      "find-the-number-that-appears-once-and-other-numbers-twice",
+      "find-the-two-numbers-appearing-odd-number-of-times"
+    ]
+  },
+  {
+    "title": "STACK / QUEUE",
+    "problems": [
+      "check-for-balanced-paranthesis",
+      "implement-min-stack",
+      "next-greater-element",
+      "trapping-rainwater",
+      "largest-rectangle-in-a-histogram",
+      "sliding-window-maximum",
+      "lru-cache-important"
+    ]
+  },
+  {
+    "title": "SLIDING WINDOW",
+    "problems": [
+      "longest-substring-without-repeating-characters",
+      "fruit-into-baskets",
+      "longest-repeating-character-replacement",
+      "binary-subarray-with-sum",
+      "minimum-window-substring"
+    ]
+  },
+  {
+    "title": "HEAPS",
+    "problems": [
+      "kth-largest-element-in-an-array-use-priority-queue",
+      "merge-m-sorted-lists",
+      "k-most-frequent-elements",
+      "find-median-from-data-stream"
+    ]
+  },
+  {
+    "title": "GREEDY",
+    "problems": [
+      "jump-game",
+      "jump-game-2",
+      "n-meetings-in-one-room",
+      "merge-intervals"
+    ]
+  },
+  {
+    "title": "TREES",
+    "problems": [
+      "binary-tree-traversals-in-binary-tree",
+      "level-order-traversal-level-order-traversal-in-spiral-form",
+      "diameter-of-binary-tree",
+      "maximum-path-sum",
+      "zig-zag-traversal-of-binary-tree",
+      "lca-in-binary-tree",
+      "serialize-and-deserialize-binary-tree"
+    ]
+  },
+  {
+    "title": "BST",
+    "problems": [
+      "search-in-a-binary-search-tree",
+      "delete-a-node-in-binary-search-tree",
+      "check-if-a-tree-is-a-bst-or-bt",
+      "kth-smallest-element-in-an-array-use-priority-queue"
+    ]
+  },
+  {
+    "title": "GRAPHS",
+    "problems": [
+      "number-of-provinces-leetcode",
+      "rotten-oranges",
+      "cycle-detection-in-undirected-graph-dfs",
+      "bipartite-graph-dfs",
+      "topo-sort"
+    ]
+  },
+  {
+    "title": "DP",
+    "problems": [
+      "frog-jump-dp-3",
+      "house-robber-dp-6",
+      "grid-unique-paths-dp-on-grids-dp8",
+      "subset-sum-equal-to-target-dp-14",
+      "longest-common-subsequence-dp-25",
+      "longest-increasing-subsequence-dp-41"
+    ]
+  },
+  {
+    "title": "TRIE",
+    "problems": [
+      "implement-trie-insert-search-startswith",
+      "count-total-nodes-in-a-complete-binary-tree"
+    ]
+  }
+]

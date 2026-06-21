@@ -1,0 +1,4037 @@
+[
+  {
+    "title": "Step 1 : Learn the basics",
+    "lectures": [
+      {
+        "title": "Lec 1: Things to Know in C++/Java/Python or any language",
+        "problems": [
+          {
+            "id": "user-input-output",
+            "title": "User Input / Output",
+            "articleLink": "https://takeuforward.org/c/c-basic-input-output/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/search-query-auto-complete/0?category%5B%5D=Strings&category%5B%5D=Strings&problemStatus=unsolved&difficulty%5B%5D=2&page=1&query=category%5B%5DStringsproblemStatusunsolveddifficulty%5B%5D2page1category%5B%5DStr",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "data-types",
+            "title": "Data Types",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "if-else-statements",
+            "title": "If Else statements",
+            "articleLink": "https://takeuforward.org/if-else/if-else-statements/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/java-if-else-decision-making0924/0?category%5B%5D=Java&category%5B%5D=Java&difficulty%5B%5D=-2&page=1&query=category%5B%5DJavadifficulty%5B%5D-2page1category%5B%5DJava",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "switch-statement",
+            "title": "Switch Statement",
+            "articleLink": "https://takeuforward.org/switch-case/switch-case-statements/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/java-switch-case-statement3529/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "what-are-arrays-strings",
+            "title": "What are arrays, strings?",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "for-loops",
+            "title": "For loops",
+            "articleLink": "https://takeuforward.org/for-loop/understanding-for-loop/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://www.codingninjas.com/studio/problems/nth-fibonacci-number_74156?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "while-loops",
+            "title": "While loops",
+            "articleLink": "https://takeuforward.org/while-loop/while-loops-in-programming/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/while-loop-printtable-java/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "functions-pass-by-reference-and-value",
+            "title": "Functions (Pass by Reference and Value)",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "time-complexity-learn-basics-and-then-analyse-in-next-steps",
+            "title": "Time Complexity [Learn Basics, and then analyse in next Steps]",
+            "articleLink": "https://takeuforward.org/time-complexity/time-and-space-complexity-strivers-a2z-dsa-course/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Build-up Logical Thinking",
+        "problems": [
+          {
+            "id": "patterns",
+            "title": "Patterns",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          }
+        ]
+      },
+      {
+        "title": "Lec 3: Learn STL/Java-Collections or similar thing in your\n            language",
+        "problems": [
+          {
+            "id": "c-stl",
+            "title": "C++ STL",
+            "articleLink": "https://takeuforward.org/c/c-stl-tutorial-most-frequent-used-stl-containers/",
+            "youtubeLink": "https://www.youtube.com/watch?v=RRVYpIET_RU",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "java-collections",
+            "title": "Java Collections",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          }
+        ]
+      },
+      {
+        "title": "Lec 4: Know Basic Maths",
+        "problems": [
+          {
+            "id": "count-digits",
+            "title": "Count Digits",
+            "articleLink": "https://takeuforward.org/data-structure/count-digits-in-a-number/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/count-digits5716/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "reverse-a-number",
+            "title": "Reverse a Number",
+            "articleLink": "https://takeuforward.org/maths/reverse-digits-of-a-number",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/reverse-integer/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "check-palindrome",
+            "title": "Check Palindrome",
+            "articleLink": "https://takeuforward.org/data-structure/check-if-a-number-is-palindrome-or-not/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/palindrome-number/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "gcd-or-hcf",
+            "title": "GCD Or HCF",
+            "articleLink": "https://takeuforward.org/data-structure/find-gcd-of-two-numbers/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/lcm-and-gcd4516/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "armstrong-numbers",
+            "title": "Armstrong Numbers",
+            "articleLink": "https://takeuforward.org/maths/check-if-a-number-is-armstrong-number-or-not/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/armstrong-number/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "print-all-divisors",
+            "title": "Print all Divisors",
+            "articleLink": "https://takeuforward.org/data-structure/print-all-divisors-of-a-given-number/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/sum-of-all-divisors-from-1-to-n4738/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "check-for-prime",
+            "title": "Check for Prime",
+            "articleLink": "https://takeuforward.org/data-structure/check-if-a-number-is-prime-or-not/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1",
+            "difficulty": "Easy"
+          }
+        ]
+      },
+      {
+        "title": "Lec 5: Learn Basic Recursion",
+        "problems": [
+          {
+            "id": "understand-recursion-by-print-something-n-times",
+            "title": "Understand recursion by print something N times",
+            "articleLink": "https://takeuforward.org/recursion/introduction-to-recursion-understand-recursion-by-printing-something-n-times/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "print-name-n-times-using-recursion",
+            "title": "Print name N times using recursion",
+            "articleLink": "https://takeuforward.org/recursion/print-name-n-times-using-recursion/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "print-1-to-n-using-recursion",
+            "title": "Print 1 to N using recursion",
+            "articleLink": "https://takeuforward.org/recursion/print-1-to-n-using-recursion/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/print-1-to-n-without-using-loops-1587115620/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "print-n-to-1-using-recursion",
+            "title": "Print N to 1 using recursion",
+            "articleLink": "https://takeuforward.org/recursion/print-n-to-1-using-recursion/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "sum-of-first-n-numbers",
+            "title": "Sum of first N numbers",
+            "articleLink": "https://takeuforward.org/data-structure/sum-of-first-n-natural-numbers/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/sum-of-first-n-terms5843/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "factorial-of-n-numbers",
+            "title": "Factorial of N numbers",
+            "articleLink": "https://takeuforward.org/data-structure/factorial-of-a-number-iterative-and-recursive/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/find-all-factorial-numbers-less-than-or-equal-to-n3548/0?problemType=functional&difficulty%5B%5D=-1&page=1&query=problemTypefunctionaldifficulty%5B%5D-1page1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "reverse-an-array",
+            "title": "Reverse an array",
+            "articleLink": "https://takeuforward.org/data-structure/reverse-a-given-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/reverse-an-array/0",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "check-if-a-string-is-palindrome-or-not",
+            "title": "Check if a string is palindrome or not",
+            "articleLink": "https://takeuforward.org/data-structure/check-if-the-given-string-is-palindrome-or-not/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/valid-palindrome/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "fibonacci-number",
+            "title": "Fibonacci Number",
+            "articleLink": "https://takeuforward.org/arrays/print-fibonacci-series-up-to-nth-term/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/fibonacci-number/",
+            "difficulty": "Easy"
+          }
+        ]
+      },
+      {
+        "title": "Lec 6: Learn Basic Hashing",
+        "problems": [
+          {
+            "id": "hashing-theory",
+            "title": "Hashing Theory",
+            "articleLink": "https://takeuforward.org/hashing/hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "counting-frequencies-of-array-elements",
+            "title": "Counting frequencies of array elements",
+            "articleLink": "https://takeuforward.org/data-structure/count-frequency-of-each-element-in-the-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/0",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "find-the-highest-lowest-frequency-element",
+            "title": "Find the highest/lowest frequency element",
+            "articleLink": "https://takeuforward.org/arrays/find-the-highest-lowest-frequency-element/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/",
+            "difficulty": "Easy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 2 : Learn Important Sorting Techniques",
+    "lectures": [
+      {
+        "title": "Lec 1: Sorting-I",
+        "problems": [
+          {
+            "id": "selection-sort",
+            "title": "Selection Sort",
+            "articleLink": "https://takeuforward.org/sorting/selection-sort-algorithm/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "bubble-sort",
+            "title": "Bubble Sort",
+            "articleLink": "https://takeuforward.org/data-structure/bubble-sort-algorithm/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "insertion-sort",
+            "title": "Insertion Sort",
+            "articleLink": "https://takeuforward.org/data-structure/insertion-sort-algorithm/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Sorting-II",
+        "problems": [
+          {
+            "id": "merge-sort",
+            "title": "Merge Sort",
+            "articleLink": "https://takeuforward.org/data-structure/merge-sort-algorithm/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "recursive-bubble-sort",
+            "title": "Recursive Bubble Sort",
+            "articleLink": "https://takeuforward.org/arrays/recursive-bubble-sort-algorithm/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "recursive-insertion-sort",
+            "title": "Recursive Insertion Sort",
+            "articleLink": "https://takeuforward.org/arrays/recursive-insertion-sort-algorithm/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "quick-sort",
+            "title": "Quick Sort",
+            "articleLink": "https://takeuforward.org/data-structure/quick-sort-algorithm/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 3 : Solve Problems on Arrays [Easy -> Medium -> Hard]",
+    "lectures": [
+      {
+        "title": "Lec 1: Easy",
+        "problems": [
+          {
+            "id": "largest-element-in-an-array",
+            "title": "Largest Element in an Array",
+            "articleLink": "https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "second-largest-element-in-an-array-without-sorting",
+            "title": "Second Largest Element in an Array without sorting",
+            "articleLink": "https://takeuforward.org/data-structure/find-second-smallest-and-second-largest-element-in-an-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "check-if-the-array-is-sorted",
+            "title": "Check if the array is sorted",
+            "articleLink": "https://takeuforward.org/data-structure/check-if-an-array-is-sorted/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/#:~:text=Input%3A%20nums%20%3D%20%5B2%2C,no%20rotation)%20to%20make%20nums.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "remove-duplicates-from-sorted-array",
+            "title": "Remove duplicates from Sorted array",
+            "articleLink": "https://takeuforward.org/data-structure/remove-duplicates-in-place-from-sorted-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/#:~:text=Input%3A%20nums%20%3D%20%5B0%2C,%2C%203%2C%20and%204%20respectively.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "left-rotate-an-array-by-one-place",
+            "title": "Left Rotate an array by one place",
+            "articleLink": "https://takeuforward.org/data-structure/left-rotate-the-array-by-one/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/rotate-array/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "left-rotate-an-array-by-d-places",
+            "title": "Left rotate an array by D places",
+            "articleLink": "https://takeuforward.org/data-structure/rotate-array-by-k-elements/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/rotate-array/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "move-zeros-to-end",
+            "title": "Move Zeros to end",
+            "articleLink": "https://takeuforward.org/data-structure/move-all-zeros-to-the-end-of-the-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/move-zeroes/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "linear-search",
+            "title": "Linear Search",
+            "articleLink": "https://takeuforward.org/data-structure/linear-search-in-c/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "find-the-union",
+            "title": "Find the Union",
+            "articleLink": "https://takeuforward.org/data-structure/union-of-two-sorted-arrays/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-missing-number-in-an-array",
+            "title": "Find missing number in an array",
+            "articleLink": "https://takeuforward.org/arrays/find-the-missing-number-in-an-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/missing-number/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "maximum-consecutive-ones",
+            "title": "Maximum Consecutive Ones",
+            "articleLink": "https://takeuforward.org/data-structure/count-maximum-consecutive-ones-in-the-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/max-consecutive-ones/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "find-the-number-that-appears-once-and-other-numbers-twice",
+            "title": "Find the number that appears once, and other numbers twice.",
+            "articleLink": "https://takeuforward.org/arrays/find-the-number-that-appears-once-and-the-other-numbers-twice/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/single-number/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "longest-subarray-with-given-sum-k-positives",
+            "title": "Longest subarray with given sum K(positives)",
+            "articleLink": "https://takeuforward.org/data-structure/longest-subarray-with-given-sum-k/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-sub-array-with-sum-k",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "longest-subarray-with-sum-k-positives-negatives",
+            "title": "Longest subarray with sum K (Positives + Negatives)",
+            "articleLink": "https://takeuforward.org/arrays/longest-subarray-with-sum-k-postives-and-negatives/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-sub-array-with-sum-k",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Medium",
+        "problems": [
+          {
+            "id": "2sum-problem",
+            "title": "2Sum Problem",
+            "articleLink": "https://takeuforward.org/data-structure/two-sum-check-if-a-pair-with-given-sum-exists-in-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/two-sum/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "sort-an-array-of-0-s-1-s-and-2-s",
+            "title": "Sort an array of 0's 1's and 2's",
+            "articleLink": "https://takeuforward.org/data-structure/sort-an-array-of-0s-1s-and-2s/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/sort-colors/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "majority-element-n-2-times",
+            "title": "Majority Element (>n/2 times)",
+            "articleLink": "https://takeuforward.org/data-structure/find-the-majority-element-that-occurs-more-than-n-2-times/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/majority-element/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "kadane-s-algorithm-maximum-subarray-sum",
+            "title": "Kadane's Algorithm, maximum subarray sum",
+            "articleLink": "https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/maximum-subarray/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "print-subarray-with-maximum-subarray-sum-extended-version-of-above-problem",
+            "title": "Print subarray with maximum subarray sum (extended version of above problem)",
+            "articleLink": "https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "stock-buy-and-sell",
+            "title": "Stock Buy and Sell",
+            "articleLink": "https://takeuforward.org/data-structure/stock-buy-and-sell/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "rearrange-the-array-in-alternating-positive-and-negative-items",
+            "title": "Rearrange the array in alternating positive and negative items",
+            "articleLink": "https://takeuforward.org/arrays/rearrange-array-elements-by-sign/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/rearrange-array-elements-by-sign/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "next-permutation",
+            "title": "Next Permutation",
+            "articleLink": "https://takeuforward.org/data-structure/next_permutation-find-next-lexicographically-greater-permutation/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/next-permutation/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "leaders-in-an-array-problem",
+            "title": "Leaders in an Array problem",
+            "articleLink": "https://takeuforward.org/data-structure/leaders-in-an-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "longest-consecutive-sequence-in-an-array",
+            "title": "Longest Consecutive Sequence in an Array",
+            "articleLink": "https://takeuforward.org/data-structure/longest-consecutive-sequence-in-an-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/longest-consecutive-sequence/solution/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "set-matrix-zeros",
+            "title": "Set Matrix Zeros",
+            "articleLink": "https://takeuforward.org/data-structure/set-matrix-zero/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/set-matrix-zeroes/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "rotate-matrix-by-90-degrees",
+            "title": "Rotate Matrix by 90 degrees",
+            "articleLink": "https://takeuforward.org/data-structure/rotate-image-by-90-degree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/rotate-image/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "print-the-matrix-in-spiral-manner",
+            "title": "Print the matrix in spiral manner",
+            "articleLink": "https://takeuforward.org/data-structure/spiral-traversal-of-matrix/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/spiral-matrix/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "count-subarrays-with-given-sum",
+            "title": "Count subarrays with given sum",
+            "articleLink": "https://takeuforward.org/arrays/count-subarray-sum-equals-k/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/subarray-sum-equals-k/",
+            "difficulty": "Easy"
+          }
+        ]
+      },
+      {
+        "title": "Lec 3: Hard",
+        "problems": [
+          {
+            "id": "pascal-s-triangle",
+            "title": "Pascal's Triangle",
+            "articleLink": "https://takeuforward.org/data-structure/program-to-generate-pascals-triangle/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/pascals-triangle/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "majority-element-n-3-times",
+            "title": "Majority Element (n/3 times)",
+            "articleLink": "https://takeuforward.org/data-structure/majority-elementsn-3-times-find-the-elements-that-appears-more-than-n-3-times-in-the-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/majority-element-ii/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "3-sum-problem",
+            "title": "3-Sum Problem",
+            "articleLink": "https://takeuforward.org/data-structure/3-sum-find-triplets-that-add-up-to-a-zero/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/3sum/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "4-sum-problem",
+            "title": "4-Sum Problem",
+            "articleLink": "https://takeuforward.org/data-structure/4-sum-find-quads-that-add-up-to-a-target-value/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/4sum/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "largest-subarray-with-0-sum",
+            "title": "Largest Subarray with 0 Sum",
+            "articleLink": "https://takeuforward.org/data-structure/length-of-the-longest-subarray-with-zero-sum/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "count-number-of-subarrays-with-given-xor-k",
+            "title": "Count number of subarrays with given xor K",
+            "articleLink": "https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "merge-overlapping-subintervals",
+            "title": "Merge Overlapping Subintervals",
+            "articleLink": "https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/merge-intervals/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "merge-two-sorted-arrays-without-extra-space",
+            "title": "Merge two sorted arrays without extra space",
+            "articleLink": "https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/merge-sorted-array/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-the-repeating-and-missing-number",
+            "title": "Find the repeating and missing number",
+            "articleLink": "https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "count-inversions",
+            "title": "Count Inversions",
+            "articleLink": "https://takeuforward.org/data-structure/count-inversions-in-an-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "reverse-pairs",
+            "title": "Reverse Pairs",
+            "articleLink": "https://takeuforward.org/data-structure/count-reverse-pairs/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/reverse-pairs/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "maximum-product-subarray",
+            "title": "Maximum Product Subarray",
+            "articleLink": "https://takeuforward.org/data-structure/maximum-product-subarray-in-an-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/maximum-product-subarray/",
+            "difficulty": "Easy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 4 : Binary Search [1D, 2D Arrays, Search Space]",
+    "lectures": [
+      {
+        "title": "Lec 1: BS on 1D Arrays",
+        "problems": [
+          {
+            "id": "binary-search-to-find-x-in-sorted-array",
+            "title": "Binary Search to find X in sorted array",
+            "articleLink": "https://takeuforward.org/data-structure/binary-search-explained/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-search/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "implement-lower-bound",
+            "title": "Implement Lower Bound",
+            "articleLink": "https://takeuforward.org/arrays/implement-lower-bound-bs-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "implement-upper-bound",
+            "title": "Implement Upper Bound",
+            "articleLink": "https://takeuforward.org/arrays/implement-upper-bound/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "search-insert-position",
+            "title": "Search Insert Position",
+            "articleLink": "https://takeuforward.org/arrays/search-insert-position/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/search-insert-position/#:~:text=Search%20Insert%20Position%20%2D%20LeetCode&text=Given%20a%20sorted%20array%20of,(log%20n)%20runtime%20complexity.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "floor-ceil-in-sorted-array",
+            "title": "Floor/Ceil in Sorted Array",
+            "articleLink": "https://takeuforward.org/arrays/floor-and-ceil-in-sorted-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://www.codingninjas.com/codestudio/problems/ceiling-in-a-sorted-array_1825401",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-the-first-or-last-occurrence-of-a-given-number-in-a-sorted-array",
+            "title": "Find the first or last occurrence of a given number in a sorted array",
+            "articleLink": "https://takeuforward.org/data-structure/last-occurrence-in-a-sorted-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "count-occurrences-of-a-number-in-a-sorted-array-with-duplicates",
+            "title": "Count occurrences of a number in a sorted array with duplicates",
+            "articleLink": "https://takeuforward.org/data-structure/count-occurrences-in-sorted-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "search-in-rotated-sorted-array-i",
+            "title": "Search in Rotated Sorted Array I",
+            "articleLink": "https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "search-in-rotated-sorted-array-ii",
+            "title": "Search in Rotated Sorted Array II",
+            "articleLink": "https://takeuforward.org/arrays/search-element-in-rotated-sorted-array-ii/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-minimum-in-rotated-sorted-array",
+            "title": "Find minimum in Rotated Sorted Array",
+            "articleLink": "https://takeuforward.org/data-structure/minimum-in-rotated-sorted-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-out-how-many-times-has-an-array-been-rotated",
+            "title": "Find out how many times has an array been rotated",
+            "articleLink": "https://takeuforward.org/arrays/find-out-how-many-times-the-array-has-been-rotated/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "single-element-in-a-sorted-array",
+            "title": "Single element in a Sorted Array",
+            "articleLink": "https://takeuforward.org/data-structure/search-single-element-in-a-sorted-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "find-peak-element",
+            "title": "Find peak element",
+            "articleLink": "https://takeuforward.org/data-structure/peak-element-in-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks.",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: BS on Answers",
+        "problems": [
+          {
+            "id": "find-square-root-of-a-number-in-log-n",
+            "title": "Find square root of a number in log n",
+            "articleLink": "https://takeuforward.org/binary-search/finding-sqrt-of-a-number-using-binary-search/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-the-nth-root-of-a-number-using-binary-search",
+            "title": "Find the Nth root of a number using binary search",
+            "articleLink": "https://takeuforward.org/data-structure/nth-root-of-a-number-using-binary-search/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "koko-eating-bananas",
+            "title": "Koko Eating Bananas",
+            "articleLink": "https://takeuforward.org/binary-search/koko-eating-bananas/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/koko-eating-bananas/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "minimum-days-to-make-m-bouquets",
+            "title": "Minimum days to make M bouquets",
+            "articleLink": "https://takeuforward.org/arrays/minimum-days-to-make-m-bouquets/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "find-the-smallest-divisor",
+            "title": "Find the smallest Divisor",
+            "articleLink": "https://takeuforward.org/arrays/find-the-smallest-divisor-given-a-threshold/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "capacity-to-ship-packages-within-d-days",
+            "title": "Capacity to Ship Packages within D Days",
+            "articleLink": "https://takeuforward.org/arrays/capacity-to-ship-packages-within-d-days/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "kth-missing-positive-number",
+            "title": "Kth Missing Positive Number",
+            "articleLink": "https://takeuforward.org/arrays/kth-missing-positive-number/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/kth-missing-positive-number/#:~:text=Given%20an%20array%20arr%20of,13%2C...%5D.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "aggressive-cows",
+            "title": "Aggressive Cows",
+            "articleLink": "https://takeuforward.org/data-structure/aggressive-cows-detailed-solution/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "book-allocation-problem",
+            "title": "Book Allocation Problem",
+            "articleLink": "https://takeuforward.org/data-structure/allocate-minimum-number-of-pages/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "split-array-largest-sum",
+            "title": "Split array - Largest Sum",
+            "articleLink": "https://takeuforward.org/arrays/split-array-largest-sum/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/split-array-largest-sum/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "painter-s-partition",
+            "title": "Painter's partition",
+            "articleLink": "https://takeuforward.org/arrays/painters-partition-problem/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://www.codingninjas.com/studio/problems/painter-s-partition-problem_1089557?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "minimize-max-distance-to-gas-station",
+            "title": "Minimize Max Distance to Gas Station",
+            "articleLink": "https://takeuforward.org/arrays/minimise-maximum-distance-between-gas-stations/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "median-of-2-sorted-arrays",
+            "title": "Median of 2 sorted arrays",
+            "articleLink": "https://takeuforward.org/data-structure/median-of-two-sorted-arrays-of-different-sizes/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "kth-element-of-2-sorted-arrays",
+            "title": "Kth element of 2 sorted arrays",
+            "articleLink": "https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 3: BS on 2D Arrays",
+        "problems": [
+          {
+            "id": "find-the-row-with-maximum-number-of-1-s",
+            "title": "Find the row with maximum number of 1's",
+            "articleLink": "https://takeuforward.org/arrays/find-the-row-with-maximum-number-of-1s/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "search-in-a-2-d-matrix",
+            "title": "Search in a 2 D matrix",
+            "articleLink": "https://takeuforward.org/data-structure/search-in-a-sorted-2d-matrix/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/search-a-2d-matrix/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "search-in-a-row-and-column-wise-sorted-matrix",
+            "title": "Search in a row and column wise sorted matrix",
+            "articleLink": "https://takeuforward.org/arrays/search-in-a-row-and-column-wise-sorted-matrix/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-peak-element-2d-matrix",
+            "title": "Find Peak Element (2D Matrix)",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/find-a-peak-element-ii/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "matrix-median",
+            "title": "Matrix Median",
+            "articleLink": "https://takeuforward.org/data-structure/median-of-row-wise-sorted-matrix/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 5 : Strings [Basic and Medium]",
+    "lectures": [
+      {
+        "title": "Lec 1: Basic and Easy String Problems",
+        "problems": [
+          {
+            "id": "remove-outermost-paranthesis",
+            "title": "Remove outermost Paranthesis",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/remove-outermost-parentheses/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "reverse-words-in-a-given-string-palindrome-check",
+            "title": "Reverse words in a given string / Palindrome Check",
+            "articleLink": "https://takeuforward.org/data-structure/reverse-words-in-a-string/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/reverse-words-in-a-string/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "largest-odd-number-in-a-string",
+            "title": "Largest odd number in a string",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/largest-odd-number-in-string/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "longest-common-prefix",
+            "title": "Longest Common Prefix",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/longest-common-prefix/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "isomorphic-string",
+            "title": "Isomorphic String",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/isomorphic-strings/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "check-whether-one-string-is-a-rotation-of-another",
+            "title": "check whether one string is a rotation of another",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/rotate-string/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "check-if-two-strings-are-anagram-of-each-other",
+            "title": "Check if two strings are anagram of each other",
+            "articleLink": "https://takeuforward.org/data-structure/check-if-two-strings-are-anagrams-of-each-other/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/valid-anagram/#:~:text=Given%20two%20strings%20s%20and,the%20original%20letters%20exactly%20once.&text=Constraints%3A,.length%20%3C%3D%205%20*%2010",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Medium String Problems",
+        "problems": [
+          {
+            "id": "sort-characters-by-frequency",
+            "title": "Sort Characters by frequency",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/sort-characters-by-frequency/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "maximum-nesting-depth-of-paranthesis",
+            "title": "Maximum Nesting Depth of Paranthesis",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "roman-number-to-integer-and-vice-versa",
+            "title": "Roman Number to Integer and vice versa",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/roman-to-integer/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "implement-atoi",
+            "title": "Implement Atoi",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/string-to-integer-atoi/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "count-number-of-substrings",
+            "title": "Count Number of Substrings",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "longest-palindromic-substring-do-it-without-dp",
+            "title": "Longest Palindromic Substring[Do it without DP]",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/longest-palindromic-substring/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "sum-of-beauty-of-all-substring",
+            "title": "Sum of Beauty of all substring",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "reverse-every-word-in-a-string",
+            "title": "Reverse Every Word in A String",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/reverse-words-in-a-string/",
+            "difficulty": "Easy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "lectures": [
+      {
+        "title": "Lec 1: Learn 1D LinkedList",
+        "problems": [
+          {
+            "id": "introduction-to-linkedlist-learn-about-struct-and-how-is-node-represented",
+            "title": "Introduction to LinkedList, learn about struct, and how is node represented",
+            "articleLink": "https://takeuforward.org/linked-list/linked-list-introduction",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "inserting-a-node-in-linkedlist",
+            "title": "Inserting a node in LinkedList",
+            "articleLink": "https://takeuforward.org/linked-list/insert-at-the-head-of-a-linked-list",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "deleting-a-node-in-linkedlist",
+            "title": "Deleting a node in LinkedList",
+            "articleLink": "https://takeuforward.org/data-structure/delete-last-node-of-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/delete-node-in-a-linked-list/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-the-length-of-the-linkedlist-learn-traversal",
+            "title": "Find the length of the linkedlist [learn traversal]",
+            "articleLink": "https://takeuforward.org/linked-list/find-the-length-of-a-linked-list",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "search-an-element-in-the-ll",
+            "title": "Search an element in the LL",
+            "articleLink": "https://takeuforward.org/linked-list/search-an-element-in-a-linked-list",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Learn Doubly LinkedList",
+        "problems": [
+          {
+            "id": "introduction-to-dll-learn-about-struct-and-how-is-node-represented",
+            "title": "Introduction to DLL, learn about struct, and how is node represented",
+            "articleLink": "https://takeuforward.org/linked-list/introduction-to-doubly-linked-list",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "insert-a-node-in-dll",
+            "title": "Insert a node in DLL",
+            "articleLink": "https://takeuforward.org/data-structure/insert-at-end-of-doubly-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "delete-a-node-in-dll",
+            "title": "Delete a node in DLL",
+            "articleLink": "https://takeuforward.org/data-structure/delete-last-node-of-a-doubly-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "reverse-a-dll",
+            "title": "Reverse a DLL",
+            "articleLink": "https://takeuforward.org/data-structure/reverse-a-doubly-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 3: Medium Problems of LL",
+        "problems": [
+          {
+            "id": "middle-of-a-linkedlist-tortoisehare-method",
+            "title": "Middle of a LinkedList [TortoiseHare Method]",
+            "articleLink": "https://takeuforward.org/data-structure/find-middle-element-in-a-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/middle-of-the-linked-list/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "reverse-a-linkedlist-iterative",
+            "title": "Reverse a LinkedList [Iterative]",
+            "articleLink": "https://takeuforward.org/data-structure/reverse-a-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/reverse-linked-list/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "reverse-a-ll-recursive",
+            "title": "Reverse a LL [Recursive]",
+            "articleLink": "https://takeuforward.org/data-structure/reverse-a-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/reverse-linked-list/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "detect-a-loop-in-ll",
+            "title": "Detect a loop in LL",
+            "articleLink": "https://takeuforward.org/data-structure/detect-a-cycle-in-a-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/linked-list-cycle/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-the-starting-point-in-ll",
+            "title": "Find the starting point in LL",
+            "articleLink": "https://takeuforward.org/data-structure/starting-point-of-loop-in-a-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/linked-list-cycle-ii/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "length-of-loop-in-ll",
+            "title": "Length of Loop in LL",
+            "articleLink": "https://takeuforward.org/linked-list/length-of-loop-in-linked-list",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "check-if-ll-is-palindrome-or-not",
+            "title": "Check if LL is palindrome or not",
+            "articleLink": "https://takeuforward.org/data-structure/check-if-given-linked-list-is-plaindrome/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/palindrome-linked-list/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "segrregate-odd-and-even-nodes-in-ll",
+            "title": "Segrregate odd and even nodes in LL",
+            "articleLink": "https://takeuforward.org/data-structure/segregate-even-and-odd-nodes-in-linkedlist",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/odd-even-linked-list/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "remove-nth-node-from-the-back-of-the-ll",
+            "title": "Remove Nth node from the back of the LL",
+            "articleLink": "https://takeuforward.org/data-structure/remove-n-th-node-from-the-end-of-a-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "delete-the-middle-node-of-ll",
+            "title": "Delete the middle node of LL",
+            "articleLink": "https://takeuforward.org/linked-list/delete-the-middle-node-of-the-linked-list",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/#:~:text=You%20are%20given%20the%20head,than%20or%20equal%20to%20x%20.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "sort-ll",
+            "title": "Sort LL",
+            "articleLink": "https://takeuforward.org/linked-list/sort-a-linked-list",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/sort-list/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "sort-a-ll-of-0-s-1-s-and-2-s-by-changing-links",
+            "title": "Sort a LL of 0's 1's and 2's by changing links",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-the-intersection-point-of-y-ll",
+            "title": "Find the intersection point of Y LL",
+            "articleLink": "https://takeuforward.org/data-structure/find-intersection-of-two-linked-lists/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "add-1-to-a-number-represented-by-ll",
+            "title": "Add 1 to a number represented by LL",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "add-2-numbers-in-ll",
+            "title": "Add 2 numbers in LL",
+            "articleLink": "https://takeuforward.org/data-structure/add-two-numbers-represented-as-linked-lists/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/add-two-numbers/",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 4: Medium Problems of DLL",
+        "problems": [
+          {
+            "id": "delete-all-occurrences-of-a-key-in-dll",
+            "title": "Delete all occurrences of a key in DLL",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-pairs-with-given-sum-in-dll",
+            "title": "Find pairs with given sum in DLL",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "remove-duplicates-from-sorted-dll",
+            "title": "Remove duplicates from sorted DLL",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 5: Hard Problems of LL",
+        "problems": [
+          {
+            "id": "reverse-ll-in-group-of-given-size-k",
+            "title": "Reverse LL in group of given size K",
+            "articleLink": "https://takeuforward.org/data-structure/reverse-linked-list-in-groups-of-size-k/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "rotate-a-ll",
+            "title": "Rotate a LL",
+            "articleLink": "https://takeuforward.org/data-structure/rotate-a-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/rotate-list/description/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "flattening-of-ll",
+            "title": "Flattening of LL",
+            "articleLink": "https://takeuforward.org/data-structure/flattening-a-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "clone-a-linked-list-with-random-and-next-pointer",
+            "title": "Clone a Linked List with random and next pointer",
+            "articleLink": "https://takeuforward.org/data-structure/clone-linked-list-with-random-and-next-pointer/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+            "difficulty": "Hard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 7 : Recursion [PatternWise]",
+    "lectures": [
+      {
+        "title": "Lec 1: Get a Strong Hold",
+        "problems": [
+          {
+            "id": "recursive-implementation-of-atoi",
+            "title": "Recursive Implementation of atoi()",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/string-to-integer-atoi/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "pow-x-n",
+            "title": "Pow(x, n)",
+            "articleLink": "https://takeuforward.org/data-structure/implement-powxn-x-raised-to-the-power-n/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/powx-n/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "count-good-numbers",
+            "title": "Count Good numbers",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/count-good-numbers/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "sort-a-stack-using-recursion",
+            "title": "Sort a stack using recursion",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "reverse-a-stack-using-recursion",
+            "title": "Reverse a stack using recursion",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Subsequences Pattern",
+        "problems": [
+          {
+            "id": "generate-all-binary-strings",
+            "title": "Generate all binary strings",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "generate-paranthesis",
+            "title": "Generate Paranthesis",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/generate-parentheses/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "print-all-subsequences-power-set",
+            "title": "Print all subsequences/Power Set",
+            "articleLink": "https://takeuforward.org/data-structure/power-set-print-all-the-possible-subsequences-of-the-string/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/subsets/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "learn-all-patterns-of-subsequences-theory",
+            "title": "Learn All Patterns of Subsequences (Theory)",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "count-all-subsequences-with-sum-k",
+            "title": "Count all subsequences with sum K",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "check-if-there-exists-a-subsequence-with-sum-k",
+            "title": "Check if there exists a subsequence with sum K",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://www.codingninjas.com/studio/problems/subset-sum_630213?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "combination-sum",
+            "title": "Combination Sum",
+            "articleLink": "https://takeuforward.org/data-structure/combination-sum-1/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/combination-sum/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "combination-sum-ii",
+            "title": "Combination Sum-II",
+            "articleLink": "https://takeuforward.org/data-structure/combination-sum-ii-find-all-unique-combinations/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/combination-sum-ii/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "subset-sum-i",
+            "title": "Subset Sum-I",
+            "articleLink": "https://takeuforward.org/data-structure/subset-sum-sum-of-all-subsets/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "subset-sum-ii",
+            "title": "Subset Sum-II",
+            "articleLink": "https://takeuforward.org/data-structure/subset-ii-print-all-the-unique-subsets/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/subsets-ii/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "combination-sum-iii",
+            "title": "Combination Sum - III",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/combination-sum-iii/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "letter-combinations-of-a-phone-number",
+            "title": "Letter Combinations of a Phone number",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 3: Trying out all Combos / Hard",
+        "problems": [
+          {
+            "id": "palindrome-partitioning",
+            "title": "Palindrome Partitioning",
+            "articleLink": "https://takeuforward.org/data-structure/palindrome-partitioning/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/palindrome-partitioning/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "word-search",
+            "title": "Word Search",
+            "articleLink": "https://takeuforward.org/data-structure/word-search-leetcode/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/word-search/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "n-queen",
+            "title": "N Queen",
+            "articleLink": "https://takeuforward.org/data-structure/n-queen-problem-return-all-distinct-solutions-to-the-n-queens-puzzle/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/n-queens/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "rat-in-a-maze",
+            "title": "Rat in a Maze",
+            "articleLink": "https://takeuforward.org/data-structure/rat-in-a-maze/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "word-break",
+            "title": "Word Break",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/word-break/",
+            "difficulty": ""
+          },
+          {
+            "id": "m-coloring-problem",
+            "title": "M Coloring Problem",
+            "articleLink": "https://takeuforward.org/data-structure/m-coloring-problem/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1#",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "sudoko-solver",
+            "title": "Sudoko Solver",
+            "articleLink": "https://takeuforward.org/data-structure/sudoku-solver/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/sudoku-solver/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "expression-add-operators",
+            "title": "Expression Add Operators",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/expression-add-operators/",
+            "difficulty": "Hard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 8 : Bit Manipulation [Concepts & Problems]",
+    "lectures": [
+      {
+        "title": "Lec 1: Learn Bit Manipulation",
+        "problems": [
+          {
+            "id": "introduction-to-bit-manipulation-theory",
+            "title": "Introduction to Bit Manipulation [Theory]",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "check-if-the-i-th-bit-is-set-or-not",
+            "title": "Check if the i-th bit is set or not",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "check-if-a-number-is-odd-or-not",
+            "title": "Check if a number is odd or not",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/odd-or-even3618/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "check-if-a-number-is-power-of-2-or-not",
+            "title": "Check if a number is power of 2 or not",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/power-of-two/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "count-the-number-of-set-bits",
+            "title": "Count the number of set bits",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "set-unset-the-rightmost-unset-bit",
+            "title": "Set/Unset the rightmost unset bit",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/set-the-rightmost-unset-bit4436/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "swap-two-numbers",
+            "title": "Swap two numbers",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/swap-two-numbers3844/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "divide-two-integers-without-using-multiplication-division-and-mod-operator",
+            "title": "Divide two integers without using multiplication, division and mod operator",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/divide-two-integers/",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Interview Problems",
+        "problems": [
+          {
+            "id": "count-number-of-bits-to-be-flipped-to-convert-a-to-b",
+            "title": "Count number of bits to be flipped to convert A to B",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-the-number-that-appears-odd-number-of-times",
+            "title": "Find the number that appears odd number of times",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/single-number/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "power-set",
+            "title": "Power Set",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/subsets/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-xor-of-numbers-from-l-to-r",
+            "title": "Find xor of numbers from L to R",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "find-the-two-numbers-appearing-odd-number-of-times",
+            "title": "Find the two numbers appearing odd number of times",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/two-numbers-with-odd-occurrences5846/1",
+            "difficulty": "Easy"
+          }
+        ]
+      },
+      {
+        "title": "Lec 3: Advanced Maths",
+        "problems": [
+          {
+            "id": "print-prime-factors-of-a-number",
+            "title": "Print Prime Factors of a Number",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "all-divisors-of-a-number",
+            "title": "All Divisors of a Number",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/all-divisors-of-a-number/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=all-divisors-of-a-number",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "sieve-of-eratosthenes",
+            "title": "Sieve of Eratosthenes",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/count-primes/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-prime-factorisation-of-a-number-using-sieve",
+            "title": "Find Prime Factorisation of a Number using Sieve",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "power-n-x",
+            "title": "Power(n, x)",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/powx-n/",
+            "difficulty": "Medium"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 9 : Stack and Queues [Learning, Pre-In-Post-fix, Monotonic Stack, Implementation]",
+    "lectures": [
+      {
+        "title": "Lec 1: Learning",
+        "problems": [
+          {
+            "id": "implement-stack-using-arrays",
+            "title": "Implement Stack using Arrays",
+            "articleLink": "https://takeuforward.org/data-structure/implement-stack-using-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "implement-queue-using-arrays",
+            "title": "Implement Queue using Arrays",
+            "articleLink": "https://takeuforward.org/data-structure/implement-queue-using-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "implement-stack-using-queue",
+            "title": "Implement Stack using Queue",
+            "articleLink": "https://takeuforward.org/data-structure/implement-stack-using-single-queue/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/implement-stack-using-queues/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "implement-queue-using-stack",
+            "title": "Implement Queue using Stack",
+            "articleLink": "https://takeuforward.org/data-structure/implement-queue-using-stack/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/implement-queue-using-stacks/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "implement-stack-using-linkedlist",
+            "title": "Implement stack using Linkedlist",
+            "articleLink": "https://takeuforward.org/data-structure/implement-stack-using-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "implement-queue-using-linkedlist",
+            "title": "Implement queue using Linkedlist",
+            "articleLink": "https://takeuforward.org/data-structure/implement-queue-using-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "check-for-balanced-paranthesis",
+            "title": "Check for balanced paranthesis",
+            "articleLink": "https://takeuforward.org/data-structure/check-for-balanced-parentheses/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/valid-parentheses/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "implement-min-stack",
+            "title": "Implement Min Stack",
+            "articleLink": "https://takeuforward.org/data-structure/implement-min-stack-o2n-and-on-space-complexity/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/min-stack/",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Prefix, Infix, PostFix Conversion Problems",
+        "problems": [
+          {
+            "id": "infix-to-postfix-conversion-using-stack",
+            "title": "Infix to Postfix Conversion using Stack",
+            "articleLink": "https://takeuforward.org/data-structure/infix-to-postfix/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "prefix-to-infix-conversion",
+            "title": "Prefix to Infix Conversion",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "prefix-to-postfix-conversion",
+            "title": "Prefix to Postfix Conversion",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "postfix-to-prefix-conversion",
+            "title": "Postfix to Prefix Conversion",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "postfix-to-infix",
+            "title": "Postfix to Infix",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "convert-infix-to-prefix-notation",
+            "title": "Convert Infix To Prefix Notation",
+            "articleLink": "https://takeuforward.org/data-structure/infix-to-prefix/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 3: Monotonic Stack/Queue Problems [VVV. Imp]",
+        "problems": [
+          {
+            "id": "next-greater-element",
+            "title": "Next Greater Element",
+            "articleLink": "https://takeuforward.org/data-structure/next-greater-element-using-stack/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/next-greater-element-i/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "next-greater-element-2",
+            "title": "Next Greater Element 2",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/next-greater-element-ii/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "next-smaller-element",
+            "title": "Next Smaller Element",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "number-of-nges-to-the-right",
+            "title": "Number of NGEs to the right",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "trapping-rainwater",
+            "title": "Trapping Rainwater",
+            "articleLink": "https://takeuforward.org/data-structure/trapping-rainwater/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/trapping-rain-water/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "sum-of-subarray-minimum",
+            "title": "Sum of subarray minimum",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/sum-of-subarray-minimums/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "asteroid-collision",
+            "title": "Asteroid Collision",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/asteroid-collision/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "sum-of-subarray-ranges",
+            "title": "Sum of subarray ranges",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/sum-of-subarray-ranges/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "remove-k-digits",
+            "title": "Remove k Digits",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/remove-k-digits/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "largest-rectangle-in-a-histogram",
+            "title": "Largest rectangle in a histogram",
+            "articleLink": "https://takeuforward.org/data-structure/area-of-largest-rectangle-in-histogram/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "maximal-rectangles",
+            "title": "Maximal Rectangles",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/maximal-rectangle/",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "title": "Lec 4: Implementation Problems",
+        "problems": [
+          {
+            "id": "sliding-window-maximum",
+            "title": "Sliding Window maximum",
+            "articleLink": "https://takeuforward.org/data-structure/sliding-window-maximum/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/sliding-window-maximum/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "stock-span-problem",
+            "title": "Stock span problem",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/online-stock-span/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "the-celebrity-problem",
+            "title": "The Celebrity Problem",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/accounts/login/?next=/problems/find-the-celebrity/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "lru-cache-important",
+            "title": "LRU cache (IMPORTANT)",
+            "articleLink": "https://takeuforward.org/data-structure/implement-lru-cache/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/lru-cache/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "lfu-cache",
+            "title": "LFU cache",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/lfu-cache/",
+            "difficulty": "Hard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 10 : Sliding Window & Two Pointer Combined Problems",
+    "lectures": [
+      {
+        "title": "Lec 1: Medium Problems",
+        "problems": [
+          {
+            "id": "longest-substring-without-repeating-characters",
+            "title": "Longest Substring Without Repeating Characters",
+            "articleLink": "https://takeuforward.org/data-structure/length-of-longest-substring-without-any-repeating-character/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "max-consecutive-ones-iii",
+            "title": "Max Consecutive Ones III",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "fruit-into-baskets",
+            "title": "Fruit Into Baskets",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "longest-repeating-character-replacement",
+            "title": "longest repeating character replacement",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "binary-subarray-with-sum",
+            "title": "Binary subarray with sum",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-subarrays-with-sum/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "count-number-of-nice-subarrays",
+            "title": "Count number of nice subarrays",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/count-number-of-nice-subarrays/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "number-of-substring-containing-all-three-characters",
+            "title": "Number of substring containing all three characters",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "maximum-point-you-can-obtain-from-cards",
+            "title": "Maximum point you can obtain from cards",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Hard Problems",
+        "problems": [
+          {
+            "id": "longest-substring-with-at-most-k-distinct-characters",
+            "title": "Longest Substring with At Most K Distinct Characters",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "subarray-with-k-different-integers",
+            "title": "Subarray with k different integers",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "minimum-window-substring",
+            "title": "Minimum Window Substring",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/minimum-window-substring/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "minimum-window-subsequence",
+            "title": "Minimum Window Subsequence",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/minimum-window-subsequence/",
+            "difficulty": "Hard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 11 : Heaps [Learning, Medium, Hard Problems]",
+    "lectures": [
+      {
+        "title": "Lec 1: Learning",
+        "problems": [
+          {
+            "id": "introduction-to-priority-queues-using-binary-heaps",
+            "title": "Introduction to Priority Queues using Binary Heaps",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "min-heap-and-max-heap-implementation",
+            "title": "Min Heap and Max Heap Implementation",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "check-if-an-array-represents-a-min-heap-or-not",
+            "title": "Check if an array represents a min-heap or not",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "convert-min-heap-to-max-heap",
+            "title": "Convert min Heap to max Heap",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Medium Problems",
+        "problems": [
+          {
+            "id": "kth-largest-element-in-an-array-use-priority-queue",
+            "title": "Kth largest element in an array [use priority queue]",
+            "articleLink": "https://takeuforward.org/data-structure/kth-largest-smallest-element-in-an-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "kth-smallest-element-in-an-array-use-priority-queue",
+            "title": "Kth smallest element in an array [use priority queue]",
+            "articleLink": "https://takeuforward.org/data-structure/kth-largest-smallest-element-in-an-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "sort-k-sorted-array",
+            "title": "Sort K sorted array",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "merge-m-sorted-lists",
+            "title": "Merge M sorted Lists",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/merge-k-sorted-lists/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "replace-each-array-element-by-its-corresponding-rank",
+            "title": "Replace each array element by its corresponding rank",
+            "articleLink": "https://takeuforward.org/data-structure/replace-elements-by-its-rank-in-the-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "task-scheduler",
+            "title": "Task Scheduler",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/task-scheduler/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "hands-of-straights",
+            "title": "Hands of Straights",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/hand-of-straights/",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 3: Hard Problems",
+        "problems": [
+          {
+            "id": "design-twitter",
+            "title": "Design twitter",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/design-twitter/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "connect-n-ropes-with-minimal-cost",
+            "title": "Connect `n` ropes with minimal cost",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "kth-largest-element-in-a-stream-of-running-integers",
+            "title": "Kth largest element in a stream of running integers",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/kth-largest-element-in-a-stream/#:~:text=Implement%20KthLargest%20class%3A,largest%20element%20in%20the%20stream.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "maximum-sum-combination",
+            "title": "Maximum Sum Combination",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-median-from-data-stream",
+            "title": "Find Median from Data Stream",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/find-median-from-data-stream/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "k-most-frequent-elements",
+            "title": "K most frequent elements",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/top-k-frequent-elements/",
+            "difficulty": "Medium"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 12 : Greedy Algorithms [Easy, Medium/Hard]",
+    "lectures": [
+      {
+        "title": "Lec 1: Easy Problems",
+        "problems": [
+          {
+            "id": "assign-cookies",
+            "title": "Assign Cookies",
+            "articleLink": "https://takeuforward.org/Greedy/assign-cookies",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/assign-cookies/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "fractional-knapsack-problem",
+            "title": "Fractional Knapsack Problem",
+            "articleLink": "https://takeuforward.org/data-structure/fractional-knapsack-problem-greedy-approach/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "greedy-algorithm-to-find-minimum-number-of-coins",
+            "title": "Greedy algorithm to find minimum number of coins",
+            "articleLink": "https://takeuforward.org/data-structure/find-minimum-number-of-coins/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "lemonade-change",
+            "title": "Lemonade Change",
+            "articleLink": "https://takeuforward.org/Greedy/lemonade-change",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/lemonade-change/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "valid-paranthesis-checker",
+            "title": "Valid Paranthesis Checker",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/valid-parenthesis-string/",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Medium/Hard",
+        "problems": [
+          {
+            "id": "n-meetings-in-one-room",
+            "title": "N meetings in one room",
+            "articleLink": "https://takeuforward.org/data-structure/n-meetings-in-one-room/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "jump-game",
+            "title": "Jump Game",
+            "articleLink": "https://takeuforward.org/Greedy/jump-game-i",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/jump-game/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "jump-game-2",
+            "title": "Jump Game 2",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/jump-game-ii/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "minimum-number-of-platforms-required-for-a-railway",
+            "title": "Minimum number of platforms required for a railway",
+            "articleLink": "https://takeuforward.org/data-structure/minimum-number-of-platforms-required-for-a-railway/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1#",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "job-sequencing-problem",
+            "title": "Job sequencing Problem",
+            "articleLink": "https://takeuforward.org/data-structure/job-sequencing-problem/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1#",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "candy",
+            "title": "Candy",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/candy/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "program-for-shortest-job-first-or-sjf-cpu-scheduling",
+            "title": "Program for Shortest Job First (or SJF) CPU Scheduling",
+            "articleLink": "https://takeuforward.org/Greedy/shortest-job-first-or-sjf-cpu-scheduling",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "program-for-least-recently-used-lru-page-replacement-algorithm",
+            "title": "Program for Least Recently Used (LRU) Page Replacement Algorithm",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "insert-interval",
+            "title": "Insert Interval",
+            "articleLink": "https://takeuforward.org/?s=Insert+Interval",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/insert-interval/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "merge-intervals",
+            "title": "Merge Intervals",
+            "articleLink": "https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/merge-intervals/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "non-overlapping-intervals",
+            "title": "Non-overlapping Intervals",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/non-overlapping-intervals/",
+            "difficulty": "Medium"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 13 : Binary Trees [Traversals, Medium and Hard Problems]",
+    "lectures": [
+      {
+        "title": "Lec 1: Traversals",
+        "problems": [
+          {
+            "id": "introduction-to-trees",
+            "title": "Introduction to Trees",
+            "articleLink": "https://takeuforward.org/binary-tree/introduction-to-trees/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "binary-tree-representation-in-c",
+            "title": "Binary Tree Representation in C++",
+            "articleLink": "https://takeuforward.org/binary-tree/binary-tree-representation-in-c/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "binary-tree-representation-in-java",
+            "title": "Binary Tree Representation in Java",
+            "articleLink": "https://takeuforward.org/binary-tree/binary-tree-representation-in-java/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "binary-tree-traversals-in-binary-tree",
+            "title": "Binary Tree Traversals in Binary Tree",
+            "articleLink": "https://takeuforward.org/binary-tree/binary-tree-traversal-inorder-preorder-postorder/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://www.codingninjas.com/codestudio/problems/tree-traversal_981269?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "preorder-traversal-of-binary-tree",
+            "title": "Preorder Traversal of Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/preorder-traversal-of-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "inorder-traversal-of-binary-tree",
+            "title": "Inorder Traversal of Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "post-order-traversal-of-binary-tree",
+            "title": "Post-order Traversal of Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "level-order-traversal-level-order-traversal-in-spiral-form",
+            "title": "Level order Traversal / Level order traversal in spiral form",
+            "articleLink": "https://takeuforward.org/data-structure/level-order-traversal-of-a-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "iterative-preorder-traversal-of-binary-tree",
+            "title": "Iterative Preorder Traversal of Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/iterative-preorder-traversal-of-binary-tree",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "iterative-inorder-traversal-of-binary-tree",
+            "title": "Iterative Inorder Traversal of Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "post-order-traversal-of-binary-tree-using-2-stack",
+            "title": "Post-order Traversal of Binary Tree using 2 stack",
+            "articleLink": "https://takeuforward.org/data-structure/iterative-postorder-traversal-of-binary-tree-using-2-stack",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "post-order-traversal-of-binary-tree-using-1-stack",
+            "title": "Post-order Traversal of Binary Tree using 1 stack",
+            "articleLink": "https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "preorder-inorder-and-postorder-traversal-in-one-traversal",
+            "title": "Preorder, Inorder, and Postorder Traversal in one Traversal",
+            "articleLink": "https://takeuforward.org/data-structure/preorder-inorder-postorder-traversals-in-one-traversal/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Medium Problems",
+        "problems": [
+          {
+            "id": "height-of-a-binary-tree",
+            "title": "Height of a Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/maximum-depth-of-a-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "check-if-the-binary-tree-is-height-balanced-or-not",
+            "title": "Check if the Binary tree is height-balanced or not",
+            "articleLink": "https://takeuforward.org/data-structure/check-if-the-binary-tree-is-balanced-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/balanced-binary-tree/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "diameter-of-binary-tree",
+            "title": "Diameter of Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/calculate-the-diameter-of-a-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/diameter-of-binary-tree/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "maximum-path-sum",
+            "title": "Maximum path sum",
+            "articleLink": "https://takeuforward.org/data-structure/maximum-sum-path-in-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "check-if-two-trees-are-identical-or-not",
+            "title": "Check if two trees are identical or not",
+            "articleLink": "https://takeuforward.org/data-structure/check-if-two-trees-are-identical/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/same-tree/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "zig-zag-traversal-of-binary-tree",
+            "title": "Zig Zag Traversal of Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/zig-zag-traversal-of-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "boundary-traversal-of-binary-tree",
+            "title": "Boundary Traversal of Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/boundary-traversal-of-a-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/boundary-of-binary-tree/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "vertical-order-traversal-of-binary-tree",
+            "title": "Vertical Order Traversal of Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/vertical-order-traversal-of-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "top-view-of-binary-tree",
+            "title": "Top View of Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/top-view-of-a-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "bottom-view-of-binary-tree",
+            "title": "Bottom View of Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/bottom-view-of-a-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "right-left-view-of-binary-tree",
+            "title": "Right/Left View of Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/right-left-view-of-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-tree-right-side-view/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "symmetric-binary-tree",
+            "title": "Symmetric Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/check-for-symmetrical-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/symmetric-tree/",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 3: Hard Problems",
+        "problems": [
+          {
+            "id": "root-to-node-path-in-binary-tree",
+            "title": "Root to Node Path in Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/print-root-to-node-path-in-a-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "lca-in-binary-tree",
+            "title": "LCA in Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/lowest-common-ancestor-for-two-given-nodes/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "maximum-width-of-a-binary-tree",
+            "title": "Maximum width of a Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/maximum-width-of-a-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/maximum-width-of-binary-tree/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "check-for-children-sum-property",
+            "title": "Check for Children Sum Property",
+            "articleLink": "https://takeuforward.org/data-structure/check-for-children-sum-property-in-a-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "print-all-the-nodes-at-a-distance-of-k-in-a-binary-tree",
+            "title": "Print all the Nodes at a distance of K in a Binary Tree",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "minimum-time-taken-to-burn-the-binary-tree-from-a-node",
+            "title": "Minimum time taken to BURN the Binary Tree from a Node",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "count-total-nodes-in-a-complete-binary-tree",
+            "title": "Count total Nodes in a COMPLETE Binary Tree",
+            "articleLink": "https://takeuforward.org/binary-tree/count-number-of-nodes-in-a-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/count-complete-tree-nodes/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "requirements-needed-to-construct-a-unique-binary-tree-theory",
+            "title": "Requirements needed to construct a Unique Binary Tree | Theory",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "construct-binary-tree-from-inorder-and-preorder",
+            "title": "Construct Binary Tree from inorder and preorder",
+            "articleLink": "https://takeuforward.org/data-structure/construct-a-binary-tree-from-inorder-and-preorder-traversal/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "construct-the-binary-tree-from-postorder-and-inorder-traversal",
+            "title": "Construct the Binary Tree from Postorder and Inorder Traversal",
+            "articleLink": "https://takeuforward.org/data-structure/construct-binary-tree-from-inorder-and-postorder-traversal/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "serialize-and-deserialize-binary-tree",
+            "title": "Serialize and deserialize Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/serialize-and-deserialize-a-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "morris-preorder-traversal-of-a-binary-tree",
+            "title": "Morris Preorder Traversal of a Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/morris-preorder-traversal-of-a-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "morris-inorder-traversal-of-a-binary-tree",
+            "title": "Morris Inorder Traversal of a Binary Tree",
+            "articleLink": "https://takeuforward.org/data-structure/morris-inorder-traversal-of-a-binary-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "flatten-binary-tree-to-linkedlist",
+            "title": "Flatten Binary Tree to LinkedList",
+            "articleLink": "https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+            "difficulty": "Hard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 14 : Binary Search Trees [Concept and Problems]",
+    "lectures": [
+      {
+        "title": "Lec 1: Concepts",
+        "problems": [
+          {
+            "id": "introduction-to-binary-search-tree",
+            "title": "Introduction to Binary Search Tree",
+            "articleLink": "https://takeuforward.org/binary-search-tree/introduction-to-binary-search-trees/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "search-in-a-binary-search-tree",
+            "title": "Search in a Binary Search Tree",
+            "articleLink": "https://takeuforward.org/data-structure/search-in-a-binary-search-tree-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/search-in-a-binary-search-tree/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "find-min-max-in-bst",
+            "title": "Find Min/Max in BST",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/minimum-element-in-bst/1",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Practice Problems",
+        "problems": [
+          {
+            "id": "ceil-in-a-binary-search-tree",
+            "title": "Ceil in a Binary Search Tree",
+            "articleLink": "https://takeuforward.org/binary-search-tree/ceil-in-a-binary-search-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/implementing-ceil-in-bst/1",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "floor-in-a-binary-search-tree",
+            "title": "Floor in a Binary Search Tree",
+            "articleLink": "https://takeuforward.org/binary-search-tree/floor-in-a-binary-search-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "insert-a-given-node-in-binary-search-tree",
+            "title": "Insert a given Node in Binary Search Tree",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "delete-a-node-in-binary-search-tree",
+            "title": "Delete a Node in Binary Search Tree",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/delete-node-in-a-bst/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-k-th-smallest-largest-element-in-bst",
+            "title": "Find K-th smallest/largest element in BST",
+            "articleLink": "https://takeuforward.org/data-structure/kth-largest-smallest-element-in-binary-search-tree/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "check-if-a-tree-is-a-bst-or-bt",
+            "title": "Check if a tree is a BST or BT",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/validate-binary-search-tree/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "lca-in-binary-search-tree",
+            "title": "LCA in Binary Search Tree",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "construct-a-bst-from-a-preorder-traversal",
+            "title": "Construct a BST from a preorder traversal",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "inorder-successor-predecessor-in-bst",
+            "title": "Inorder Successor/Predecessor in BST",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/inorder-successor-in-bst/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "merge-2-bst-s",
+            "title": "Merge 2 BST's",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/binary-search-tree-iterator/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "two-sum-in-bst-check-if-there-exists-a-pair-with-sum-k",
+            "title": "Two Sum In BST | Check if there exists a pair with Sum K",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "recover-bst-correct-bst-with-two-nodes-swapped",
+            "title": "Recover BST | Correct BST with two nodes swapped",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/recover-binary-search-tree/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "largest-bst-in-binary-tree",
+            "title": "Largest BST in Binary Tree",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/largest-bst/1",
+            "difficulty": "Hard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 15 : Graphs [Concepts & Problems]",
+    "lectures": [
+      {
+        "title": "Lec 1: Learning",
+        "problems": [
+          {
+            "id": "graph-and-types",
+            "title": "Graph and Types",
+            "articleLink": "https://takeuforward.org/graph/introduction-to-graph/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "graph-representation-c",
+            "title": "Graph Representation | C++",
+            "articleLink": "https://takeuforward.org/graph/graph-representation-in-c/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "graph-representation-java",
+            "title": "Graph Representation | Java",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "connected-components-logic-explanation",
+            "title": "Connected Components | Logic Explanation",
+            "articleLink": "https://takeuforward.org/graph/connected-components-in-graphs/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "bfs",
+            "title": "BFS",
+            "articleLink": "https://takeuforward.org/graph/breadth-first-search-bfs-level-order-traversal/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "dfs",
+            "title": "DFS",
+            "articleLink": "https://takeuforward.org/data-structure/depth-first-search-dfs/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Problems on BFS/DFS",
+        "problems": [
+          {
+            "id": "number-of-provinces-leetcode",
+            "title": "Number of provinces (leetcode)",
+            "articleLink": "https://takeuforward.org/data-structure/number-of-provinces/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/number-of-provinces/#:~:text=A%20province%20is%20a%20group,the%20total%20number%20of%20provinces.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "connected-components-problem-in-matrix",
+            "title": "Connected Components Problem in Matrix",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "rotten-oranges",
+            "title": "Rotten Oranges",
+            "articleLink": "https://takeuforward.org/data-structure/rotten-oranges-min-time-to-rot-all-oranges-bfs/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/rotting-oranges/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "flood-fill",
+            "title": "Flood fill",
+            "articleLink": "https://takeuforward.org/graph/flood-fill-algorithm-graphs/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/flood-fill/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "cycle-detection-in-unirected-graph-bfs",
+            "title": "Cycle Detection in unirected Graph (bfs)",
+            "articleLink": "https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-an-undirected-graph",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "cycle-detection-in-undirected-graph-dfs",
+            "title": "Cycle Detection in undirected Graph (dfs)",
+            "articleLink": "https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-dfs/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-an-undirected-graph",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "0-1-matrix-bfs-problem",
+            "title": "0/1 Matrix (Bfs Problem)",
+            "articleLink": "https://takeuforward.org/graph/distance-of-nearest-cell-having-1/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/01-matrix/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "surrounded-regions-dfs",
+            "title": "Surrounded Regions (dfs)",
+            "articleLink": "https://takeuforward.org/graph/surrounded-regions-replace-os-with-xs/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/surrounded-regions/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "number-of-enclaves-flood-fill-implementation-multisource",
+            "title": "Number of Enclaves [flood fill implementation - multisource]",
+            "articleLink": "https://takeuforward.org/graph/number-of-enclaves/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/number-of-enclaves/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "word-ladder-1",
+            "title": "Word ladder - 1",
+            "articleLink": "https://takeuforward.org/graph/word-ladder-i-g-29/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/word-ladder/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "word-ladder-2",
+            "title": "Word ladder - 2",
+            "articleLink": "https://takeuforward.org/graph/g-30-word-ladder-ii/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/word-ladder-ii/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "number-of-distinct-islands-dfs-multisource",
+            "title": "Number of Distinct Islands [dfs multisource]",
+            "articleLink": "https://takeuforward.org/data-structure/number-of-islands/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/number-of-distinct-islands-ii/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "bipartite-graph-dfs",
+            "title": "Bipartite Graph (DFS)",
+            "articleLink": "https://takeuforward.org/graph/bipartite-graph-dfs-implementation/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/is-graph-bipartite/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "cycle-detection-in-directed-graph-dfs",
+            "title": "Cycle Detection in Directed Graph (DFS)",
+            "articleLink": "https://takeuforward.org/data-structure/detect-cycle-in-a-directed-graph-using-dfs-g-19/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/course-schedule-ii/discuss/293048/detecting-cycle-in-directed-graph-problem",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "title": "Lec 3: Topo Sort and Problems",
+        "problems": [
+          {
+            "id": "topo-sort",
+            "title": "Topo Sort",
+            "articleLink": "https://takeuforward.org/data-structure/topological-sort-algorithm-dfs-g-21/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/topological-sort/1",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "kahn-s-algorithm",
+            "title": "Kahn's Algorithm",
+            "articleLink": "https://takeuforward.org/data-structure/kahns-algorithm-topological-sort-algorithm-bfs-g-22/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "cycle-detection-in-directed-graph-bfs",
+            "title": "Cycle Detection in Directed Graph (BFS)",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "course-schedule-i",
+            "title": "Course Schedule - I",
+            "articleLink": "https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/course-schedule/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "course-schedule-ii",
+            "title": "Course Schedule - II",
+            "articleLink": "https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/course-schedule-ii/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "find-eventual-safe-states",
+            "title": "Find eventual safe states",
+            "articleLink": "https://takeuforward.org/data-structure/find-eventual-safe-states-bfs-topological-sort-g-25/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/find-eventual-safe-states/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "alien-dictionary",
+            "title": "Alien dictionary",
+            "articleLink": "https://takeuforward.org/data-structure/alien-dictionary-topological-sort-g-26/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/alien-dictionary/solution/",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "title": "Lec 4: Shortest Path Algorithms and Problems",
+        "problems": [
+          {
+            "id": "shortest-path-in-ug-with-unit-weights",
+            "title": "Shortest Path in UG with unit weights",
+            "articleLink": "https://takeuforward.org/data-structure/shortest-path-in-undirected-graph-with-unit-distance-g-28/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "shortest-path-in-dag",
+            "title": "Shortest Path in DAG",
+            "articleLink": "https://takeuforward.org/data-structure/shortest-path-in-directed-acyclic-graph-topological-sort-g-27/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "djisktra-s-algorithm",
+            "title": "Djisktra's Algorithm",
+            "articleLink": "https://takeuforward.org/data-structure/dijkstras-algorithm-using-set-g-33/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "why-priority-queue-is-used-in-djisktra-s-algorithm",
+            "title": "Why priority Queue is used in Djisktra's Algorithm",
+            "articleLink": "https://takeuforward.org/data-structure/dijkstras-algorithm-using-priority-queue-g-32/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "shortest-path-in-a-binary-maze",
+            "title": "Shortest path in a binary maze",
+            "articleLink": "https://takeuforward.org/data-structure/g-36-shortest-distance-in-a-binary-maze/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "path-with-minimum-effort",
+            "title": "Path with minimum effort",
+            "articleLink": "https://takeuforward.org/data-structure/g-37-path-with-minimum-effort/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/path-with-minimum-effort/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "cheapest-flights-within-k-stops",
+            "title": "Cheapest flights within k stops",
+            "articleLink": "https://takeuforward.org/data-structure/g-38-cheapest-flights-within-k-stops/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "network-delay-time",
+            "title": "Network Delay time",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/network-delay-time/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "number-of-ways-to-arrive-at-destination",
+            "title": "Number of ways to arrive at destination",
+            "articleLink": "https://takeuforward.org/data-structure/g-40-number-of-ways-to-arrive-at-destination/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "minimum-steps-to-reach-end-from-start-by-performing-multiplication-and-mod-operations-with-array-elements",
+            "title": "Minimum steps to reach end from start by performing multiplication and mod operations with array elements",
+            "articleLink": "https://takeuforward.org/graph/g-39-minimum-multiplications-to-reach-end/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "bellman-ford-algorithm",
+            "title": "Bellman Ford Algorithm",
+            "articleLink": "https://takeuforward.org/data-structure/bellman-ford-algorithm-g-41/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "floyd-warshal-algorithm",
+            "title": "Floyd Warshal Algorithm",
+            "articleLink": "https://takeuforward.org/data-structure/floyd-warshall-algorithm-g-42/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "find-the-city-with-the-smallest-number-of-neighbors-in-a-threshold-distance",
+            "title": "Find the city with the smallest number of neighbors in a threshold distance",
+            "articleLink": "https://takeuforward.org/data-structure/find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance-g-43/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "title": "Lec 5: MinimumSpanningTree/Disjoint Set and Problems",
+        "problems": [
+          {
+            "id": "minimum-spanning-tree",
+            "title": "Minimum Spanning Tree",
+            "articleLink": "https://takeuforward.org/data-structure/minimum-spanning-tree-theory-g-44/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "prim-s-algorithm",
+            "title": "Prim's Algorithm",
+            "articleLink": "https://takeuforward.org/data-structure/prims-algorithm-minimum-spanning-tree-c-and-java-g-45/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "disjoint-set-union-by-rank",
+            "title": "Disjoint Set [Union by Rank]",
+            "articleLink": "https://takeuforward.org/data-structure/disjoint-set-union-by-rank-union-by-size-path-compression-g-46/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "disjoint-set-union-by-size",
+            "title": "Disjoint Set [Union by Size]",
+            "articleLink": "https://takeuforward.org/data-structure/disjoint-set-union-by-rank-union-by-size-path-compression-g-46/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "kruskal-s-algorithm",
+            "title": "Kruskal's Algorithm",
+            "articleLink": "https://takeuforward.org/data-structure/kruskals-algorithm-minimum-spanning-tree-g-47/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "number-of-operations-to-make-network-connected",
+            "title": "Number of operations to make network connected",
+            "articleLink": "https://takeuforward.org/data-structure/number-of-operations-to-make-network-connected-dsu-g-49/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "most-stones-removed-with-same-rows-or-columns",
+            "title": "Most stones removed with same rows or columns",
+            "articleLink": "https://takeuforward.org/data-structure/most-stones-removed-with-same-row-or-column-dsu-g-53/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "accounts-merge",
+            "title": "Accounts merge",
+            "articleLink": "https://takeuforward.org/data-structure/accounts-merge-dsu-g-50/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/accounts-merge/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "number-of-island-ii",
+            "title": "Number of island II",
+            "articleLink": "https://takeuforward.org/graph/number-of-islands-ii-online-queries-dsu-g-51/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/number-of-islands-ii/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "making-a-large-island",
+            "title": "Making a Large Island",
+            "articleLink": "https://takeuforward.org/data-structure/making-a-large-island-dsu-g-52/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/making-a-large-island/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "swim-in-rising-water",
+            "title": "Swim in rising water",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/swim-in-rising-water/",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "title": "Lec 6: Other Algorithms",
+        "problems": [
+          {
+            "id": "bridges-in-graph",
+            "title": "Bridges in Graph",
+            "articleLink": "https://takeuforward.org/graph/bridges-in-graph-using-tarjans-algorithm-of-time-in-and-low-time-g-55/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/critical-connections-in-a-network/discuss/382385/find-bridges-in-a-graph",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "articulation-point",
+            "title": "Articulation Point",
+            "articleLink": "https://takeuforward.org/data-structure/articulation-point-in-graph-g-56/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "kosaraju-s-algorithm",
+            "title": "Kosaraju's Algorithm",
+            "articleLink": "https://takeuforward.org/graph/strongly-connected-components-kosarajus-algorithm-g-54/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "lectures": [
+      {
+        "title": "Lec 1: Introduction to DP",
+        "problems": [
+          {
+            "id": "dynamic-programming-introduction",
+            "title": "Dynamic Programming Introduction",
+            "articleLink": "https://takeuforward.org/data-structure/dynamic-programming-introduction/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: 1D DP",
+        "problems": [
+          {
+            "id": "climbing-stars",
+            "title": "Climbing Stars",
+            "articleLink": "https://takeuforward.org/data-structure/dynamic-programming-climbing-stairs/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/climbing-stairs/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "frog-jump-dp-3",
+            "title": "Frog Jump(DP-3)",
+            "articleLink": "https://takeuforward.org/data-structure/dynamic-programming-frog-jump-dp-3/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "frog-jump-with-k-distances-dp-4",
+            "title": "Frog Jump with k distances(DP-4)",
+            "articleLink": "https://takeuforward.org/data-structure/dynamic-programming-frog-jump-with-k-distances-dp-4/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "maximum-sum-of-non-adjacent-elements-dp-5",
+            "title": "Maximum sum of non-adjacent elements (DP 5)",
+            "articleLink": "https://takeuforward.org/data-structure/maximum-sum-of-non-adjacent-elements-dp-5/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/house-robber/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "house-robber-dp-6",
+            "title": "House Robber (DP 6)",
+            "articleLink": "https://takeuforward.org/data-structure/dynamic-programming-house-robber-dp-6/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/house-robber-ii/",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 3: 2D/3D DP and DP on Grids",
+        "problems": [
+          {
+            "id": "ninja-s-training-dp-7",
+            "title": "Ninja's Training (DP 7)",
+            "articleLink": "https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "grid-unique-paths-dp-on-grids-dp8",
+            "title": "Grid Unique Paths : DP on Grids (DP8)",
+            "articleLink": "https://takeuforward.org/data-structure/grid-unique-paths-dp-on-grids-dp8/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/unique-paths/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "grid-unique-paths-2-dp-9",
+            "title": "Grid Unique Paths 2 (DP 9)",
+            "articleLink": "https://takeuforward.org/data-structure/grid-unique-paths-2-dp-9/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/unique-paths-ii/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "minimum-path-sum-in-grid-dp-10",
+            "title": "Minimum path sum in Grid (DP 10)",
+            "articleLink": "https://takeuforward.org/data-structure/minimum-path-sum-in-a-grid-dp-10/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/minimum-path-sum/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "minimum-path-sum-in-triangular-grid-dp-11",
+            "title": "Minimum path sum in Triangular Grid (DP 11)",
+            "articleLink": "https://takeuforward.org/data-structure/minimum-path-sum-in-triangular-grid-dp-11/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/triangle/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "minimum-maximum-falling-path-sum-dp-12",
+            "title": "Minimum/Maximum Falling Path Sum (DP-12)",
+            "articleLink": "https://takeuforward.org/data-structure/minimum-maximum-falling-path-sum-dp-12/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/minimum-falling-path-sum/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "3-d-dp-ninja-and-his-friends-dp-13",
+            "title": "3-d DP : Ninja and his friends (DP-13)",
+            "articleLink": "https://takeuforward.org/data-structure/3-d-dp-ninja-and-his-friends-dp-13/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 4: DP on Subsequences",
+        "problems": [
+          {
+            "id": "subset-sum-equal-to-target-dp-14",
+            "title": "Subset sum equal to target (DP- 14)",
+            "articleLink": "https://takeuforward.org/data-structure/subset-sum-equal-to-target-dp-14/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "partition-equal-subset-sum-dp-15",
+            "title": "Partition Equal Subset Sum (DP- 15)",
+            "articleLink": "https://takeuforward.org/data-structure/partition-equal-subset-sum-dp-15/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/partition-equal-subset-sum/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16",
+            "title": "Partition Set Into 2 Subsets With Min Absolute Sum Diff (DP- 16)",
+            "articleLink": "https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "count-subsets-with-sum-k-dp-17",
+            "title": "Count Subsets with Sum K (DP - 17)",
+            "articleLink": "https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "count-partitions-with-given-difference-dp-18",
+            "title": "Count Partitions with Given Difference (DP - 18)",
+            "articleLink": "https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "assign-cookies",
+            "title": "Assign Cookies",
+            "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/assign-cookies/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "minimum-coins-dp-20",
+            "title": "Minimum Coins (DP - 20)",
+            "articleLink": "https://takeuforward.org/data-structure/minimum-coins-dp-20/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/coin-change/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "target-sum-dp-21",
+            "title": "Target Sum (DP - 21)",
+            "articleLink": "https://takeuforward.org/data-structure/target-sum-dp-21/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/target-sum/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "coin-change-2-dp-22",
+            "title": "Coin Change 2 (DP - 22)",
+            "articleLink": "https://takeuforward.org/data-structure/coin-change-2-dp-22/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/coin-change-2/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "unbounded-knapsack-dp-23",
+            "title": "Unbounded Knapsack (DP - 23)",
+            "articleLink": "https://takeuforward.org/data-structure/unbounded-knapsack-dp-23/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "rod-cutting-problem-dp-24",
+            "title": "Rod Cutting Problem | (DP - 24)",
+            "articleLink": "https://takeuforward.org/data-structure/rod-cutting-problem-dp-24/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/rod-cutting0840/1",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "title": "Lec 5: DP on Strings",
+        "problems": [
+          {
+            "id": "longest-common-subsequence-dp-25",
+            "title": "Longest Common Subsequence | (DP - 25)",
+            "articleLink": "https://takeuforward.org/data-structure/longest-common-subsequence-dp-25/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/longest-common-subsequence/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "print-longest-common-subsequence-dp-26",
+            "title": "Print Longest Common Subsequence | (DP - 26)",
+            "articleLink": "https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "longest-common-substring-dp-27",
+            "title": "Longest Common Substring | (DP - 27)",
+            "articleLink": "https://takeuforward.org/data-structure/longest-common-substring-dp-27/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "longest-palindromic-subsequence-dp-28",
+            "title": "Longest Palindromic Subsequence | (DP-28)",
+            "articleLink": "https://takeuforward.org/data-structure/longest-palindromic-subsequence-dp-28/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "minimum-insertions-to-make-string-palindrome-dp-29",
+            "title": "Minimum insertions to make string palindrome | DP-29",
+            "articleLink": "https://takeuforward.org/data-structure/minimum-insertions-to-make-string-palindrome-dp-29/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "minimum-insertions-deletions-to-convert-string-dp-30",
+            "title": "Minimum Insertions/Deletions to Convert String | (DP- 30)",
+            "articleLink": "https://takeuforward.org/data-structure/minimum-insertions-deletions-to-convert-string-dp-30/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/delete-operation-for-two-strings/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "shortest-common-supersequence-dp-31",
+            "title": "Shortest Common Supersequence | (DP - 31)",
+            "articleLink": "https://takeuforward.org/data-structure/shortest-common-supersequence-dp-31/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/shortest-common-supersequence/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "distinct-subsequences-dp-32",
+            "title": "Distinct Subsequences| (DP-32)",
+            "articleLink": "https://takeuforward.org/data-structure/distinct-subsequences-dp-32/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/distinct-subsequences/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "edit-distance-dp-33",
+            "title": "Edit Distance | (DP-33)",
+            "articleLink": "https://takeuforward.org/data-structure/edit-distance-dp-33/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/edit-distance/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "wildcard-matching-dp-34",
+            "title": "Wildcard Matching | (DP-34)",
+            "articleLink": "https://takeuforward.org/data-structure/wildcard-matching-dp-34/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/wildcard-matching/",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "title": "Lec 6: DP on Stocks",
+        "problems": [
+          {
+            "id": "best-time-to-buy-and-sell-stock-dp-35",
+            "title": "Best Time to Buy and Sell Stock |(DP-35)",
+            "articleLink": "https://takeuforward.org/data-structure/stock-buy-and-sell-dp-35/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "buy-and-sell-stock-ii-dp-36",
+            "title": "Buy and Sell Stock - II|(DP-36)",
+            "articleLink": "https://takeuforward.org/data-structure/buy-and-sell-stock-ii-dp-36/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "buy-and-sell-stocks-iii-dp-37",
+            "title": "Buy and Sell Stocks III|(DP-37)",
+            "articleLink": "https://takeuforward.org/data-structure/buy-and-sell-stock-iii-dp-37/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "buy-and-stock-sell-iv-dp-38",
+            "title": "Buy and Stock Sell IV |(DP-38)",
+            "articleLink": "https://takeuforward.org/data-structure/buy-and-sell-stock-iv-dp-38/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "buy-and-sell-stocks-with-cooldown-dp-39",
+            "title": "Buy and Sell Stocks With Cooldown|(DP-39)",
+            "articleLink": "https://takeuforward.org/data-structure/buy-and-sell-stocks-with-cooldown-dp-39/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "buy-and-sell-stocks-with-transaction-fee-dp-40",
+            "title": "Buy and Sell Stocks With Transaction Fee|(DP-40)",
+            "articleLink": "https://takeuforward.org/data-structure/buy-and-sell-stocks-with-transaction-fees-dp-40/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "title": "Lec 7: DP on LIS",
+        "problems": [
+          {
+            "id": "longest-increasing-subsequence-dp-41",
+            "title": "Longest Increasing Subsequence |(DP-41)",
+            "articleLink": "https://takeuforward.org/data-structure/longest-increasing-subsequence-dp-41/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/longest-increasing-subsequence/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "printing-longest-increasing-subsequence-dp-42",
+            "title": "Printing Longest Increasing Subsequence|(DP-42)",
+            "articleLink": "https://takeuforward.org/data-structure/printing-longest-increasing-subsequence-dp-42/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "longest-increasing-subsequence-dp-43",
+            "title": "Longest Increasing Subsequence |(DP-43)",
+            "articleLink": "https://takeuforward.org/data-structure/longest-increasing-subsequence-binary-search-dp-43/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "largest-divisible-subset-dp-44",
+            "title": "Largest Divisible Subset|(DP-44)",
+            "articleLink": "https://takeuforward.org/data-structure/longest-divisible-subset-dp-44/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/largest-divisible-subset/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "longest-string-chain-dp-45",
+            "title": "Longest String Chain|(DP-45)",
+            "articleLink": "https://takeuforward.org/data-structure/longest-string-chain-dp-45/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/longest-string-chain/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "longest-bitonic-subsequence-dp-46",
+            "title": "Longest Bitonic Subsequence |(DP-46)",
+            "articleLink": "https://takeuforward.org/data-structure/longest-bitonic-subsequence-dp-46/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "number-of-longest-increasing-subsequences-dp-47",
+            "title": "Number of Longest Increasing Subsequences|(DP-47)",
+            "articleLink": "https://takeuforward.org/data-structure/number-of-longest-increasing-subsequences-dp-47/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "title": "Lec 8: MCM DP | Partition DP",
+        "problems": [
+          {
+            "id": "matrix-chain-multiplication-dp-48",
+            "title": "Matrix Chain Multiplication|(DP-48)",
+            "articleLink": "https://takeuforward.org/dynamic-programming/matrix-chain-multiplication-dp-48/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "matrix-chain-multiplication-bottom-up-dp-49",
+            "title": "Matrix Chain Multiplication | Bottom-Up|(DP-49)",
+            "articleLink": "https://takeuforward.org/data-structure/matrix-chain-multiplication-tabulation-method-dp-49/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "minimum-cost-to-cut-the-stick-dp-50",
+            "title": "Minimum Cost to Cut the Stick|(DP-50)",
+            "articleLink": "https://takeuforward.org/data-structure/minimum-cost-to-cut-the-stick-dp-50/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "burst-balloons-dp-51",
+            "title": "Burst Balloons|(DP-51)",
+            "articleLink": "https://takeuforward.org/data-structure/burst-balloons-partition-dp-dp-51/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/burst-balloons/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "evaluate-boolean-expression-to-true-dp-52",
+            "title": "Evaluate Boolean Expression to True|(DP-52)",
+            "articleLink": "https://takeuforward.org/data-structure/evaluate-boolean-expression-to-true-partition-dp-dp-52/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/parsing-a-boolean-expression/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "palindrome-partitioning-ii-dp-53",
+            "title": "Palindrome Partitioning - II|(DP-53)",
+            "articleLink": "https://takeuforward.org/data-structure/palindrome-partitioning-ii-front-partition-dp-53/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "partition-array-for-maximum-sum-dp-54",
+            "title": "Partition Array for Maximum Sum|(DP-54)",
+            "articleLink": "https://takeuforward.org/data-structure/partition-array-for-maximum-sum-front-partition-dp-54/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/partition-array-for-maximum-sum/",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "title": "Lec 9: DP on Squares",
+        "problems": [
+          {
+            "id": "maximum-rectangle-area-with-all-1-s-dp-55",
+            "title": "Maximum Rectangle Area with all 1's|(DP-55)",
+            "articleLink": "https://takeuforward.org/data-structure/maximum-rectangle-area-with-all-1s-dp-on-rectangles-dp-55/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/maximal-rectangle/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "count-square-submatrices-with-all-ones-dp-56",
+            "title": "Count Square Submatrices with All Ones|(DP-56)",
+            "articleLink": "https://takeuforward.org/data-structure/count-square-submatrices-with-all-1s-dp-on-rectangles-dp-56/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
+            "difficulty": "Hard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 17 : Tries",
+    "lectures": [
+      {
+        "title": "Lec 1: Theory",
+        "problems": [
+          {
+            "id": "implement-trie-insert-search-startswith",
+            "title": "Implement TRIE | INSERT | SEARCH | STARTSWITH",
+            "articleLink": "https://takeuforward.org/data-structure/implement-trie-1/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "title": "Lec 2: Problems",
+        "problems": [
+          {
+            "id": "implement-trie-2-prefix-tree",
+            "title": "Implement Trie - 2 (Prefix Tree)",
+            "articleLink": "https://takeuforward.org/data-structure/implement-trie-ii/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "longest-string-with-all-prefixes",
+            "title": "Longest String with All Prefixes",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "number-of-distinct-substrings-in-a-string",
+            "title": "Number of Distinct Substrings in a String",
+            "articleLink": "https://takeuforward.org/data-structure/number-of-distinct-substrings-in-a-string-using-trie/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "bit-prerequisites-for-trie-problems",
+            "title": "Bit PreRequisites for TRIE Problems",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "maximum-xor-of-two-numbers-in-an-array",
+            "title": "Maximum XOR of two numbers in an array",
+            "articleLink": "https://takeuforward.org/data-structure/maximum-xor-of-two-numbers-in-an-array/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "maximum-xor-with-an-element-from-array",
+            "title": "Maximum XOR With an Element From Array",
+            "articleLink": "https://takeuforward.org/trie/maximum-xor-queries-trie/",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/",
+            "difficulty": "Hard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Step 18 : Strings",
+    "lectures": [
+      {
+        "title": "Lec 1: Hard Problems",
+        "problems": [
+          {
+            "id": "minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced",
+            "title": "Minimum number of bracket reversals needed to make an expression balanced",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "count-and-say",
+            "title": "Count and say",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/count-and-say/",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "hashing-in-strings-theory",
+            "title": "Hashing In Strings | Theory",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "MISSING",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "rabin-karp",
+            "title": "Rabin Karp",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/repeated-string-match/discuss/416144/Rabin-Karp-algorithm-C%2B%2B-implementation",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "z-function",
+            "title": "Z-Function",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/implement-strstr/",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "kmp-algo-lps-pi-array",
+            "title": "KMP algo / LPS(pi) array",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/implement-strstr/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "shortest-palindrome",
+            "title": "Shortest Palindrome",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/shortest-palindrome/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "longest-happy-prefix",
+            "title": "Longest happy prefix",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://leetcode.com/problems/longest-happy-prefix/",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "count-palindromic-subsequence-in-given-string",
+            "title": "Count palindromic subsequence in given string",
+            "articleLink": "MISSING",
+            "youtubeLink": "MISSING",
+            "practiceLink": "https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1#:~:text=Given%20a%20string%20str%20of,formed%20from%20the%20string%20str.&text=Your%20Task%3A,read%20input%20or%20print%20anything.",
+            "difficulty": "Hard"
+          }
+        ]
+      }
+    ]
+  }
+]
