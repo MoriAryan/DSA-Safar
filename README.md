@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DSA Safar
 
-## Getting Started
+So here's the story. 📖 
 
-First, run the development server:
+My second year of college finally ended. I was totally free and decided it was finally time to take my DSA prep seriously. I knew exactly what I wanted: the OG Striver's A2Z sheet. It was legendary. 👑 
+
+But when I went to look for it, I found out Striver had actually removed the old sheet. I started hunting for mirrors online, hoping someone had backed it up somewhere. Nothing. Absolute dead end. 
+
+Not wanting to give up, I went digging through the archives in the Wayback Machine. And boom, there it was! 🕰️ The old OG website in all its glory. I started practicing there for a bit, but then I hit a major roadblock. If I wanted to actually track my progress and save the problems I solved, I had to log in. Since I was looking at a dead, archived snapshot of the site, it was just pure static HTML. No active server, no database, no way to log in or save anything.
+
+It was literally just a static page staring back at me.
+
+Then I thought... wait a minute. I'm a developer. Why not misuse my superpowers for my own good? 🦸‍♂️💻 
+
+I downloaded the entire raw HTML. I scraped all the problem links and shoved them into a JSON format. Then, I used AI to do the tedious grunt work of formatting those messy links so they fit perfectly. I fed it screenshots of the original site so it could understand the UI flow and arrange the data into a brand new, local copy of the OG Striver's page.
+
+But since I was already flexing my builder muscles, I figured why stop there? 
+
+I've always wanted a platform that tracked my personal progress exactly the way I like it. I couldn't find anything out there that hit the spot, so I made all my own personalized modifications. I built the tracking features I always wished existed and put it all together.
+
+And that's how this masterpiece was born. ✨
+
+Honestly, I built this just for me. But if you're out there grinding DSA and want to use this setup, feel free to clone the repo and use it. 
+
+## How to run it
+
+If you want to spin this up locally, just clone the repo and run:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+That's it. Go conquer those algorithms. ⚔️
+Built with ❤️ and precision by [MoriAryan](https://www.linkedin.com/in/mori-aryan).

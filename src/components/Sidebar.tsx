@@ -29,7 +29,7 @@ export default function Sidebar() {
   }
 
   return (
-    <aside className={`bg-[#1a1b1e] text-white flex flex-col hidden md:flex shrink-0 border-r border-zinc-800 transition-all duration-300 relative ${isCollapsed ? 'w-[80px]' : 'w-[280px]'}`}>
+    <aside className={`bg-white dark:bg-[#09090b] text-zinc-900 dark:text-zinc-300 flex flex-col hidden md:flex shrink-0 border-r border-zinc-200 dark:border-zinc-800/50 transition-all duration-300 relative ${isCollapsed ? 'w-[80px]' : 'w-[280px]'}`}>
       <div className={`p-6 pb-2 flex items-center justify-between ${isCollapsed ? 'flex-col gap-4' : ''}`}>
         <div className={`flex items-center w-full ${isCollapsed ? 'flex-col gap-4' : 'gap-3'}`}>
           <button 
@@ -41,13 +41,13 @@ export default function Sidebar() {
           </button>
           {!isCollapsed && (
             <div className="flex-1 overflow-hidden">
-              <div className="flex justify-between items-center mb-1">
-                <span className="text-xs font-medium text-zinc-400 uppercase tracking-wider">Daily Goal</span>
-                <span className="text-xs font-bold text-red-500">{solvesToday}/{stats.dailyTarget}</span>
+              <div className="flex justify-between items-center mb-1.5">
+                <span className="text-[11px] font-semibold text-zinc-500 dark:text-zinc-500 uppercase tracking-wider">Daily Progress</span>
+                <span className="text-[11px] font-bold text-zinc-800 dark:text-zinc-300">{solvesToday} / {stats.dailyTarget}</span>
               </div>
-              <div className="w-full h-1.5 bg-zinc-800 rounded-full overflow-hidden">
+              <div className="w-full h-1.5 bg-zinc-200 dark:bg-zinc-800/80 rounded-full overflow-hidden">
                 <div
-                  className="h-full bg-gradient-to-r from-orange-500 to-red-500 transition-all duration-500"
+                  className="h-full bg-gradient-to-r from-orange-500 to-red-600 transition-all duration-500"
                   style={{ width: `${progressPercent}%` }}
                 />
               </div>
@@ -65,12 +65,12 @@ export default function Sidebar() {
         <NavItem href="/settings" icon={<Settings size={20} />} label="Settings" isCollapsed={isCollapsed} />
       </nav>
 
-      <div className={`p-4 border-t border-zinc-800 flex items-center ${isCollapsed ? 'flex-col justify-center gap-4' : 'justify-between'}`}>
+      <div className={`p-4 border-t border-zinc-200 dark:border-zinc-800/50 flex items-center ${isCollapsed ? 'flex-col justify-center gap-4' : 'gap-3'}`}>
         <Button
           variant="ghost"
           size="icon"
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          className="text-zinc-400 hover:text-white rounded-full hover:bg-zinc-800"
+          className="text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800/50 shrink-0"
           title="Toggle Theme"
         >
           {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
@@ -80,11 +80,13 @@ export default function Sidebar() {
             <UserButton appearance={{ elements: { userButtonAvatarBox: "w-8 h-8" } }} />
           </div>
         ) : (
-          <SignInButton mode="modal">
-            <Button variant="destructive" className={`${isCollapsed ? 'w-10 h-10 p-0 rounded-full flex items-center justify-center' : 'w-full'} bg-red-600 hover:bg-red-700 font-outfit`}>
-              {isCollapsed ? <User size={16} /> : 'Login'}
-            </Button>
-          </SignInButton>
+          <div className="flex-1 w-full">
+            <SignInButton mode="modal">
+              <Button variant="outline" className={`border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-800/50 ${isCollapsed ? 'w-10 h-10 p-0 rounded-full flex items-center justify-center' : 'w-full shadow-sm'}`}>
+                {isCollapsed ? <User size={16} /> : 'Sign In / Sync'}
+              </Button>
+            </SignInButton>
+          </div>
         )}
       </div>
     </aside>
@@ -93,11 +95,11 @@ export default function Sidebar() {
 
 function NavItem({ href, icon, label, isCollapsed }: { href: string, icon: React.ReactNode, label: string, isCollapsed: boolean }) {
   return (
-    <Link href={href} className="flex items-center gap-3 px-3 py-3 text-zinc-400 hover:text-white hover:bg-zinc-800/50 rounded-lg transition-colors group" title={label}>
+    <Link href={href} className="flex items-center gap-3 px-3 py-2.5 text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800/50 rounded-lg transition-colors group text-[14px] font-medium" title={label}>
       <span className="shrink-0">{icon}</span>
       {!isCollapsed && <span className="truncate">{label}</span>}
       {isCollapsed && (
-        <div className="absolute left-16 bg-zinc-800 text-white px-3 py-1.5 rounded-md text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity z-50 shadow-xl border border-zinc-700">
+        <div className="absolute left-16 bg-white dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100 px-3 py-1.5 rounded-md text-[13px] whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity z-50 shadow-xl border border-zinc-200 dark:border-zinc-800">
           {label}
         </div>
       )}

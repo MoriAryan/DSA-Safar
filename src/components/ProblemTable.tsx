@@ -10,15 +10,15 @@ import { Button } from "./ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "./ui/dropdown-menu";
 
 const DifficultyBadge = ({ level }: { level: string }) => {
-  let color = "bg-green-100 text-green-700 dark:bg-green-500/10 dark:text-green-400 border-green-200 dark:border-green-500/20";
+  let color = "text-emerald-600 bg-emerald-500/10 border-emerald-500/20 dark:text-emerald-400 dark:bg-emerald-500/10 dark:border-emerald-500/20";
   if (level === "Medium") {
-    color = "bg-yellow-100 text-yellow-700 dark:bg-yellow-500/10 dark:text-yellow-400 border-yellow-200 dark:border-yellow-500/20";
+    color = "text-amber-600 bg-amber-500/10 border-amber-500/20 dark:text-amber-400 dark:bg-amber-500/10 dark:border-amber-500/20";
   } else if (level === "Hard") {
-    color = "bg-red-100 text-red-700 dark:bg-red-500/10 dark:text-red-400 border-red-200 dark:border-red-500/20";
+    color = "text-rose-600 bg-rose-500/10 border-rose-500/20 dark:text-rose-400 dark:bg-rose-500/10 dark:border-rose-500/20";
   }
 
   return (
-    <span className={`px-2.5 py-1 text-xs font-semibold rounded-full border ${color}`}>
+    <span className={`px-2.5 py-0.5 text-[11px] font-semibold rounded-md border ${color}`}>
       {level}
     </span>
   );
@@ -28,16 +28,16 @@ const ResourceLink = ({ url, type }: { url: string | "MISSING", type: "article" 
   const isMissing = url === "MISSING";
   
   let Icon = FileText;
-  let color = "text-blue-500 hover:text-blue-600";
+  let color = "text-zinc-400 hover:text-indigo-500 dark:text-zinc-500 dark:hover:text-indigo-400";
   let label = "Article";
   
   if (type === "youtube") {
     Icon = Play;
-    color = "text-red-500 hover:text-red-600";
+    color = "text-zinc-400 hover:text-rose-500 dark:text-zinc-500 dark:hover:text-rose-400";
     label = "Video";
   } else if (type === "practice") {
     Icon = Code2;
-    color = "text-emerald-500 hover:text-emerald-600";
+    color = "text-zinc-400 hover:text-emerald-500 dark:text-zinc-500 dark:hover:text-emerald-400";
     label = "Practice";
   }
 
@@ -46,7 +46,7 @@ const ResourceLink = ({ url, type }: { url: string | "MISSING", type: "article" 
       <TooltipProvider delay={100}>
         <Tooltip>
           <TooltipTrigger>
-            <div className="p-2 text-zinc-300 dark:text-zinc-700 cursor-not-allowed">
+            <div className="p-2 text-zinc-200 dark:text-zinc-800 cursor-not-allowed">
               <Icon size={20} />
             </div>
           </TooltipTrigger>
@@ -96,13 +96,13 @@ const StatusCell = ({ id }: { id: string }) => {
     <div className="flex items-center justify-center gap-2">
       <button 
         onClick={handleToggle}
-        className={`w-6 h-6 rounded flex shrink-0 items-center justify-center border transition-all ${
+        className={`w-5 h-5 rounded flex shrink-0 items-center justify-center border transition-all ${
           isCompleted 
-            ? 'bg-red-500 border-red-500 text-white' 
-            : 'border-zinc-300 dark:border-zinc-700 text-transparent hover:border-red-400'
+            ? 'bg-red-600 border-red-600 text-white shadow-sm' 
+            : 'border-zinc-300 dark:border-zinc-700 text-transparent hover:border-red-400/50 hover:bg-red-500/10'
         }`}
       >
-        <Check size={16} strokeWidth={3} />
+        <Check size={14} strokeWidth={3} />
       </button>
       
       {isCompleted && (

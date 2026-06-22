@@ -7,18 +7,21 @@ import { Button } from "./ui/button";
 
 export function LandingPage() {
   const [text, setText] = useState("");
-  const codeSnippet = `function masterDSA() {
-  const roadmap = fetch('dsa-safar');
-  let skills = 0;
-  
-  while (roadmap.hasNext()) {
-    const problem = roadmap.next();
-    solve(problem);
-    skills++;
-  }
-  
-  return "FAANG Ready";
-}`;
+  const codeSnippet = `import { MasteryEngine } from '@dsa-safar/engine';
+import { LocalFirst } from '@dsa-safar/sync';
+
+const engine = new MasteryEngine({
+  target: 'Top Tier',
+  retentionRate: 0.95,
+  storage: new LocalFirst()
+});
+
+engine.on('overdue', (problem) => {
+  // Never forget a pattern again.
+  solve(problem);
+});
+
+await engine.start();`;
 
   useEffect(() => {
     let i = 0;
@@ -40,7 +43,7 @@ export function LandingPage() {
       {/* Nav */}
       <nav className="relative z-10 flex items-center justify-between px-6 py-6 max-w-7xl mx-auto">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 flex items-center justify-center overflow-visible">
+          <div className="w-14 h-14 flex items-center justify-center overflow-visible">
             <img src="/logo.png" alt="DSA Safar" className="w-full h-full object-contain drop-shadow-md" />
           </div>
           <span className="font-outfit font-black text-2xl tracking-tight">DSA Safar</span>
@@ -109,11 +112,67 @@ export function LandingPage() {
         </div>
       </main>
 
+      {/* Core Philosophy Section */}
+      <section className="relative z-10 max-w-7xl mx-auto px-6 py-32 border-t border-zinc-800/50">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+          <div>
+            <h2 className="text-3xl lg:text-4xl font-outfit font-bold tracking-tight mb-6">The Spaced Repetition Engine.</h2>
+            <p className="text-zinc-400 text-lg leading-relaxed mb-6">
+              Most developers grind LeetCode endlessly and forget the patterns a month later. DSA Safar utilizes a scientifically proven spaced-repetition algorithm that mathematically guarantees long-term retention.
+            </p>
+            <ul className="space-y-4 font-mono text-sm text-zinc-500">
+              <li className="flex items-center gap-3"><span className="text-red-500">→</span> Easy: Reviews pushed further out.</li>
+              <li className="flex items-center gap-3"><span className="text-orange-500">→</span> Partial: Reviewed again soon.</li>
+              <li className="flex items-center gap-3"><span className="text-zinc-400">→</span> Forgot: Immediately added to the active sprint.</li>
+            </ul>
+          </div>
+          <div className="bg-black/50 border border-zinc-800/80 p-8 rounded-2xl shadow-xl">
+            <div className="flex items-center justify-between mb-8 pb-6 border-b border-zinc-800">
+              <div>
+                <div className="text-xs font-mono text-zinc-500 mb-1">NEXT REVIEW</div>
+                <div className="text-xl font-bold font-outfit">Binary Search Tree</div>
+              </div>
+              <div className="text-red-500 font-mono font-bold">OVERDUE</div>
+            </div>
+            <div className="space-y-4">
+              <div className="w-full h-2 bg-zinc-900 rounded-full overflow-hidden">
+                <div className="w-[85%] h-full bg-zinc-700" />
+              </div>
+              <div className="w-full h-2 bg-zinc-900 rounded-full overflow-hidden">
+                <div className="w-[60%] h-full bg-zinc-700" />
+              </div>
+              <div className="w-full h-2 bg-zinc-900 rounded-full overflow-hidden">
+                <div className="w-[30%] h-full bg-red-500" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      {/* Local First Section */}
+      <section className="relative z-10 max-w-7xl mx-auto px-6 py-32 border-t border-zinc-800/50">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+          <div className="order-2 md:order-1 font-mono text-sm">
+            <div className="bg-[#09090b] border border-zinc-800 p-6 rounded-xl">
+              <div className="text-zinc-500 mb-2">// 100% Local execution. No latency.</div>
+              <div className="text-emerald-400 mb-1">$ ping api.dsasafar.com</div>
+              <div className="text-zinc-400 mb-4">Request timeout for icmp_seq 0</div>
+              <div className="text-emerald-400 mb-1">$ cat ~/.local/share/progress.db</div>
+              <div className="text-zinc-300">{"{"} "status": "perfectly_synced" {"}"}</div>
+            </div>
+          </div>
+          <div className="order-1 md:order-2">
+            <h2 className="text-3xl lg:text-4xl font-outfit font-bold tracking-tight mb-6">Local-First Architecture.</h2>
+            <p className="text-zinc-400 text-lg leading-relaxed">
+              Your progress is inherently yours. By leveraging IndexedDB and aggressive local caching, DSA Safar operates seamlessly offline. When you do choose to authenticate, the Sync Engine quietly merges your local state with the cloud, ensuring zero data loss without ever blocking your workflow.
+            </p>
+          </div>
+        </div>
+      </section>
       {/* Footer */}
       <footer className="relative z-10 border-t border-zinc-800/50 py-12 text-center">
         <p className="text-zinc-500 font-medium">
-          Built with precision by <a href="#" className="text-red-400 hover:text-red-300 transition-colors underline decoration-red-500/30 underline-offset-4">MoriAryan</a>.
+          Built with ❤️ and precision by <a href="https://www.linkedin.com/in/mori-aryan" className="text-red-400 hover:text-red-300 transition-colors underline decoration-red-500/30 underline-offset-4" target="blank">MoriAryan</a>.
         </p>
       </footer>
     </div>

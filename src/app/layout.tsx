@@ -29,6 +29,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
         <body
+          suppressHydrationWarning
           className={`${inter.variable} ${outfit.variable} antialiased font-inter bg-[#fafafa] dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50`}
         >
           <ThemeProvider

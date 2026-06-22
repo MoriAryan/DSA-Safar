@@ -14,16 +14,16 @@ export function LectureCard({ lecture, defaultOpen = false }: { lecture: any, de
   const { completed, total, percentage } = getProgress(problemIds);
 
   return (
-    <div className="bg-zinc-50 dark:bg-[#15161a] rounded-xl overflow-hidden border border-zinc-100 dark:border-zinc-800/50">
+    <div className="bg-white dark:bg-[#0c0c0e] rounded-xl overflow-hidden border border-zinc-200 dark:border-zinc-800/50 shadow-sm">
       <button 
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full px-5 py-3 flex items-center justify-between hover:bg-zinc-100 dark:hover:bg-zinc-800/80 transition-colors text-left"
+        className="w-full px-5 py-4 flex items-center justify-between hover:bg-zinc-50 dark:hover:bg-zinc-800/50 transition-colors text-left"
       >
         <div className="flex items-center gap-3">
-          <h3 className="text-lg font-medium font-outfit text-zinc-800 dark:text-zinc-200">{lecture.title}</h3>
+          <h3 className="text-[15px] font-semibold font-outfit text-zinc-900 dark:text-zinc-200">{lecture.title}</h3>
         </div>
         <div className="flex items-center gap-4 text-zinc-400">
-          <div className="w-24 h-2 bg-zinc-200 dark:bg-zinc-800 rounded-full overflow-hidden">
+          <div className="w-24 h-2 bg-zinc-100 dark:bg-zinc-800/80 rounded-full overflow-hidden">
             <div 
               className="h-full bg-red-500 transition-all duration-500" 
               style={{ width: `${percentage}%` }}
