@@ -31,7 +31,7 @@ export function LandingPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#0c0c0e] text-zinc-50 font-inter overflow-hidden relative selection:bg-red-500/30">
+    <div className="w-full min-h-screen bg-[#0c0c0e] text-zinc-50 font-inter overflow-hidden relative selection:bg-red-500/30">
       
       {/* Background gradients */}
       <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] rounded-full bg-red-600/20 blur-[150px] pointer-events-none" />
@@ -40,8 +40,8 @@ export function LandingPage() {
       {/* Nav */}
       <nav className="relative z-10 flex items-center justify-between px-6 py-6 max-w-7xl mx-auto">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl overflow-hidden border border-zinc-800 shadow-lg">
-            <img src="/logo.jpg" alt="DSA Safar" className="w-full h-full object-cover" />
+          <div className="w-10 h-10 flex items-center justify-center overflow-visible">
+            <img src="/logo.png" alt="DSA Safar" className="w-full h-full object-contain drop-shadow-md" />
           </div>
           <span className="font-outfit font-black text-2xl tracking-tight">DSA Safar</span>
         </div>

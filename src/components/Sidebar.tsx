@@ -34,10 +34,10 @@ export default function Sidebar() {
         <div className={`flex items-center w-full ${isCollapsed ? 'flex-col gap-4' : 'gap-3'}`}>
           <button 
             onClick={() => setIsCollapsed(!isCollapsed)}
-            className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0 hover:scale-105 transition-transform overflow-hidden bg-black border border-zinc-800"
+            className="w-10 h-10 flex items-center justify-center shrink-0 hover:scale-105 transition-transform overflow-visible"
             title="Toggle Sidebar"
           >
-            <img src="/logo.jpg" alt="DSA Safar Logo" className="w-full h-full object-cover" />
+            <img src="/logo.png" alt="DSA Safar Logo" className="w-full h-full object-contain drop-shadow-md" />
           </button>
           {!isCollapsed && (
             <div className="flex-1 overflow-hidden">
